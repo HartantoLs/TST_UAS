@@ -29,3 +29,4 @@ $routes->get('/test/progress', 'TestController::progress', ['filter' => 'auth'])
 $routes->get('/test/force_submit/(:num)', 'TestController::force_submit/$1');
 
 $routes->post('/test/submit_test/(:num)', 'TestController::submit_test/$1');
+$routes->get('test-env', 'EnvTest::index');

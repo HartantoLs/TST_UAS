@@ -118,6 +118,10 @@
             color: white;
             transform: translateY(-2px);
         }
+
+        .carousel-caption{
+            color: black;
+        }
     </style>
 </head>
 <body>
@@ -146,10 +150,10 @@
                     <div class="card-icon">
                         <i class="fas fa-play-circle"></i>
                     </div>
-                    <h3 class="card-title">Mulai Belajar</h3>
-                    <p class="card-description">Akses materi pembelajaran dan mulai persiapan UTBK Anda.</p>
-                    <a href="" class="action-button">
-                        Mulai Sekarang
+                    <h3 class="card-title">Latihan Soal</h3>
+                    <p class="card-description">Kerjakan ribuan soal latihan UTBK dengan pengalaman seperti di UTBK.</p>
+                    <a href="test/start" class="action-button">
+                        Mulai Latihan
                     </a>
                 </div>
             </div>
@@ -174,10 +178,10 @@
                     <div class="card-icon">
                         <i class="fas fa-tasks"></i>
                     </div>
-                    <h3 class="card-title">Latihan Soal</h3>
-                    <p class="card-description">Kerjakan ribuan soal latihan UTBK.</p>
+                    <h3 class="card-title">Coming Soon</h3>
+                    <p class="card-description">Halaman ini masih berada pada tahap pembuatan dan pengembangan.</p>
                     <a href="/test/start" class="action-button">
-                        Mulai Latihan
+                        Coming Soon
                     </a>
                 </div>
             </div>
@@ -188,10 +192,10 @@
                     <div class="card-icon">
                         <i class="fas fa-calendar-alt"></i>
                     </div>
-                    <h3 class="card-title">Jadwal Belajar</h3>
-                    <p class="card-description">Atur jadwal belajar sesuai kebutuhan Anda.</p>
+                    <h3 class="card-title">Coming Soon</h3>
+                    <p class="card-description">Halaman ini masih berada pada tahap pembuatan dan pengembangan.</p>
                     <a href="/dashboard" class="action-button">
-                        Atur Jadwal
+                        Coming Soon
                     </a>
                 </div>
             </div>
@@ -204,24 +208,24 @@
                     <div id="dashboardCarousel" class="carousel slide carousel-container" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="<?= base_url('assets/images/tips3.jpg'); ?>" class="d-block w-100" alt="Tips UTBK">
+                                <img src="<?= base_url('assets/images/tipsfin.jpg'); ?>" class="d-block w-100" alt="Tips UTBK">
                                 <div class="carousel-caption">
-                                    <h5>Tips Sukses UTBK</h5>
-                                    <p>Pelajari strategi menghadapi UTBK dari para ahli</p>
+                                    <!-- <h5>Tips Sukses UTBK</h5>
+                                    <p>Pelajari strategi menghadapi UTBK dari para ahli</p> -->
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="<?= base_url('assets/images/jadwal.jpg'); ?>" class="d-block w-100" alt="Jadwal UTBK">
+                                <img src="<?= base_url('assets/images/jadwalfin.jpg'); ?>" class="d-block w-100" alt="Jadwal UTBK">
                                 <div class="carousel-caption">
-                                    <h5>Jadwal UTBK 2024</h5>
-                                    <p>Persiapkan diri Anda menghadapi UTBK</p>
+                                    <!-- <h5>Jadwal UTBK 2024</h5>
+                                    <p>Persiapkan diri Anda menghadapi UTBK</p> -->
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="<?= base_url('assets/images/materi2.jpg'); ?>" class="d-block w-100" alt="Materi UTBK">
+                                <img src="<?= base_url('assets/images/materifin.jpg'); ?>" class="d-block w-100" alt="Materi UTBK">
                                 <div class="carousel-caption">
-                                    <h5>Materi Terbaru</h5>
-                                    <p>Update materi sesuai kisi-kisi terbaru</p>
+                                    <!-- <h5>Materi Terbaru</h5>
+                                    <p>Update materi sesuai kisi-kisi terbaru</p> -->
                                 </div>
                             </div>
                         </div>

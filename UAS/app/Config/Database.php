@@ -24,31 +24,27 @@ class Database extends Config
      *
      * @var array<string, mixed>
      */
-    public array $default = [
-        'DSN'          => '',
-        'hostname'     => 'localhost',
-        'username'     => '',
-        'password'     => '',
-        'database'     => '',
-        'DBDriver'     => 'MySQLi',
-        'DBPrefix'     => '',
-        'pConnect'     => false,
-        'DBDebug'      => true,
-        'charset'      => 'utf8mb4',
-        'DBCollat'     => 'utf8mb4_general_ci',
-        'swapPre'      => '',
-        'encrypt'      => false,
-        'compress'     => false,
-        'strictOn'     => false,
-        'failover'     => [],
-        'port'         => 3306,
-        'numberNative' => false,
-        'dateFormat'   => [
-            'date'     => 'Y-m-d',
-            'datetime' => 'Y-m-d H:i:s',
-            'time'     => 'H:i:s',
-        ],
+    public $default = [
+        // 'DSN'      => 'postgresql://postgres:capekbang@shvvvsetahqncxywtuxb.supabase.co:5432/postgres',
+        'hostname' => '',                   // Biarkan kosong karena menggunakan DS
+        'username' => '',                   // Biarkan kosong karena menggunakan DSN
+        'password' => '',                   // Biarkan kosong karena menggunakan DSN
+        'database' => '',                   // Biarkan kosong karena menggunakan DSN
+        'DBDriver' => 'MySQLi',            // Driver PostgreSQL
+        'DBPrefix' => '',
+        'pConnect' => false,
+        'DBDebug'  => '',
+        'cacheDir' => '',
+        'charset'  => 'utf8',
+        'DBCollat' => 'utf8_general_ci',
+        'swapPre'  => '',
+        'encrypt'  => false,
+        'compress' => false,
+        'strictOn' => false,
+        'failover' => [],
+        'port'     => 3306,  // Port default untuk PostgreSQL
     ];
+    
 
     //    /**
     //     * Sample database connection for SQLite3.
