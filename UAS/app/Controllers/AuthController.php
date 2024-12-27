@@ -5,12 +5,12 @@ namespace App\Controllers;
 use App\Models\UserModel;
 use CodeIgniter\Controller;
 use Firebase\JWT\JWT;
-use Firebase\JWT\Key;
 
 class AuthController extends Controller
 {
     protected $userModel;
     protected $key;
+    protected $session;
 
     public function __construct()
     {
@@ -19,6 +19,7 @@ class AuthController extends Controller
 
         // Memuat library session
         $this->session = \Config\Services::session();
+        $this->session->start(); // Pastikan sesi dimulai
 
         // Memuat helper yang diperlukan
         helper(['url', 'form']);
@@ -46,7 +47,7 @@ class AuthController extends Controller
             return redirect()->back()->withInput()->with('validation', $this->validator);
         }
 
-        // Menyimpan data pengguna baru
+        // Menyimpan data pengguna baru menggunakan UserModel
         $this->userModel->save([
             'username' => $this->request->getPost('username'),
             'email'    => $this->request->getPost('email'),
@@ -77,7 +78,7 @@ class AuthController extends Controller
             return redirect()->back()->withInput()->with('validation', $this->validator);
         }
 
-        // Mendapatkan data pengguna berdasarkan email
+        // Mendapatkan data pengguna berdasarkan email menggunakan UserModel
         $user = $this->userModel->where('email', $this->request->getPost('email'))->first();
 
         // Cek apakah pengguna ada dan password cocok
@@ -102,6 +103,13 @@ class AuthController extends Controller
             // Menyimpan token ke HTTP-only cookie untuk keamanan
             setcookie('token', $token, time() + 3600, "/", "", false, true);
 
+            // Menyimpan data pengguna ke session
+            $this->session->set('user', [
+                'id'       => $user['id'],
+                'username' => $user['username'],
+                'email'    => $user['email'],
+            ]);
+
             // Redirect ke dashboard
             return redirect()->to('/dashboard');
         } else {
@@ -118,6 +126,9 @@ class AuthController extends Controller
     {
         // Menghapus cookie token
         setcookie('token', '', time() - 3600, "/", "", false, true);
+
+        // Menghapus data pengguna dari session
+        $this->session->destroy();
 
         // Menyimpan pesan sukses ke session
         $this->session->setFlashdata('success', 'Anda telah berhasil logout.');

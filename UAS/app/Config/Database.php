@@ -30,19 +30,16 @@ class Database extends Config
         'username' => '',                   // Biarkan kosong karena menggunakan DSN
         'password' => '',                   // Biarkan kosong karena menggunakan DSN
         'database' => '',                   // Biarkan kosong karena menggunakan DSN
-        'DBDriver' => 'MySQLi',            // Driver PostgreSQL
+        'DBDriver' => '',            // Driver PostgreSQL
         'DBPrefix' => '',
         'pConnect' => false,
-        'DBDebug'  => '',
+        'DBDebug'  => false,
         'cacheDir' => '',
-        'charset'  => 'utf8',
-        'DBCollat' => 'utf8_general_ci',
+        'charset'  => '',
+        'DBCollat' => '',
         'swapPre'  => '',
-        'encrypt'  => false,
-        'compress' => false,
-        'strictOn' => false,
         'failover' => [],
-        'port'     => 3306,  // Port default untuk PostgreSQL
+        'port'     => '',  // Port default untuk PostgreSQL
     ];
     
 

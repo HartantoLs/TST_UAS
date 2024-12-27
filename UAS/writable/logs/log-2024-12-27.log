@@ -1,0 +1,342 @@
+INFO - 2024-12-27 04:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:03:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-12-27 04:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:03:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-12-27 04:03:43 --> Error connecting to the database: ErrorException: Uninitialized string offset 0 in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php:94
+Stack trace:
+#0 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized s...', 'D:\\College\\5th_...', 94)
+#1 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\College\5th_Sem\TST\TST_UAS\UAS\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Controllers\AuthController.php(83): CodeIgniter\BaseModel->first()
+#7 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\College\5th_Sem\TST\TST_UAS\UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\College\5th_Sem\TST\TST_UAS\UAS\system\rewrite.php(44): require_once('D:\\College\\5th_...')
+#14 {main}
+CRITICAL - 2024-12-27 04:03:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Uninitialized string offset 0
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(83): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2024-12-27 04:04:30 --> InvalidArgumentException: You have not selected a database type to connect to.
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\Database.php on line 56.
+ 1 SYSTEMPATH\Database\Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 3 APPPATH\Controllers\AuthController.php(19): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2024-12-27 04:08:42 --> InvalidArgumentException: You have not selected a database type to connect to.
+[Method: GET, Route: login]
+in SYSTEMPATH\Database\Database.php on line 56.
+ 1 SYSTEMPATH\Database\Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 3 APPPATH\Controllers\AuthController.php(21): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2024-12-27 04:08:43 --> InvalidArgumentException: You have not selected a database type to connect to.
+[Method: GET, Route: login]
+in SYSTEMPATH\Database\Database.php on line 56.
+ 1 SYSTEMPATH\Database\Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 3 APPPATH\Controllers\AuthController.php(21): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2024-12-27 04:08:45 --> InvalidArgumentException: You have not selected a database type to connect to.
+[Method: GET, Route: login]
+in SYSTEMPATH\Database\Database.php on line 56.
+ 1 SYSTEMPATH\Database\Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 3 APPPATH\Controllers\AuthController.php(21): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2024-12-27 04:14:11 --> CodeIgniter\Exceptions\ConfigException: Invalid DBDriver name: "Postgres"
+[Method: GET, Route: login]
+in SYSTEMPATH\Database\Database.php on line 172.
+ 1 SYSTEMPATH\Database\Database.php(59): CodeIgniter\Database\Database->checkDbExtension('Postgres')
+ 2 SYSTEMPATH\Database\Config.php(84): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\AuthController.php(21): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:15:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-12-27 04:15:35 --> Error: Class "Supabase\SupabaseClient" not found
+[Method: GET, Route: login]
+in APPPATH\Libraries\SupabaseLib.php on line 16.
+ 1 APPPATH\Controllers\AuthController.php(34): App\Libraries\SupabaseLib->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:17:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-12-27 04:17:18 --> Error: Class "Supabase\SupabaseClient" not found
+[Method: GET, Route: login]
+in APPPATH\Libraries\SupabaseLib.php on line 16.
+ 1 APPPATH\Controllers\AuthController.php(34): App\Libraries\SupabaseLib->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:19:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-12-27 04:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:19:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-12-27 04:19:10 --> Error connecting to the database: TypeError: CodeIgniter\Database\Postgre\Connection::connect(): Argument #1 ($persistent) must be of type bool, string given, called in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php on line 421 and defined in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\Postgre\Connection.php:63
+Stack trace:
+#0 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(421): CodeIgniter\Database\Postgre\Connection->connect('')
+#1 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\College\5th_Sem\TST\TST_UAS\UAS\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#5 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Controllers\AuthController.php(82): CodeIgniter\BaseModel->first()
+#6 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#7 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\College\5th_Sem\TST\TST_UAS\UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\College\5th_Sem\TST\TST_UAS\UAS\system\rewrite.php(44): require_once('D:\\College\\5th_...')
+#13 {main}
+CRITICAL - 2024-12-27 04:19:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: CodeIgniter\Database\Postgre\Connection::connect(): Argument #1 ($persistent) must be of type bool, string given, called in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php on line 421
+[Method: POST, Route: authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "users"
+WHERE "email" = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(82): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:21:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-12-27 04:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:21:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-12-27 04:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:21:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-12-27 04:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:21:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-12-27 04:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:21:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-12-27 04:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:21:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-12-27 04:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:21:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-12-27 04:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:21:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-12-27 04:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+WARNING - 2024-12-27 04:22:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+WARNING - 2024-12-27 04:22:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 04:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-27 04:22:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2024-12-27 04:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
