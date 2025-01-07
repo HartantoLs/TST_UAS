@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 07, 2025 at 05:50 AM
+-- Generation Time: Jan 07, 2025 at 11:33 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -20,6 +20,34 @@ SET time_zone = "+00:00";
 --
 -- Database: `tst_uas`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `books`
+--
+
+CREATE TABLE `books` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `author` varchar(255) NOT NULL,
+  `description` text DEFAULT NULL,
+  `link` varchar(500) NOT NULL,
+  `published_at` date DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data for table `books`
+--
+
+INSERT INTO `books` (`id`, `title`, `author`, `description`, `link`, `published_at`, `created_at`, `updated_at`) VALUES
+(1, 'Panduan Lengkap UTBK 2024 Saintek', 'Tim Edukasi', 'Buku panduan lengkap untuk menghadapi UTBK Saintek dengan soal dan pembahasan.', 'https://example.com/panduan-utbk-saintek-2024', '2023-09-01', '2025-01-07 07:33:46', '2025-01-07 07:33:46'),
+(2, 'Strategi Jitu Lulus UTBK Soshum', 'Tim Edukasi', 'Panduan strategi dan soal-soal UTBK Soshum untuk persiapan masuk PTN.', 'https://example.com/strategi-utbk-soshum', '2023-08-15', '2025-01-07 07:33:46', '2025-01-07 07:33:46'),
+(3, 'Buku Sakti UTBK Campuran 2024', 'Tim Cerdas', 'Buku sakti berisi kumpulan soal campuran Saintek dan Soshum untuk UTBK.', 'https://example.com/buku-sakti-utbk', '2023-07-20', '2025-01-07 07:33:46', '2025-01-07 07:33:46'),
+(4, 'Bank Soal UTBK 2024 Saintek', 'Tim Expert', 'Kumpulan soal UTBK Saintek lengkap dengan pembahasan.', 'https://example.com/bank-soal-utbk-saintek', '2023-06-30', '2025-01-07 07:33:46', '2025-01-07 07:33:46'),
+(5, 'Rangkuman Materi UTBK Soshum 2024', 'Tim Edukreatif', 'Rangkuman materi dan soal UTBK Soshum untuk persiapan UTBK 2024.', 'https://example.com/rangkuman-materi-soshum', '2023-05-10', '2025-01-07 07:33:46', '2025-01-07 07:33:46');
 
 -- --------------------------------------------------------
 
@@ -42,7 +70,19 @@ CREATE TABLE `forumanswer` (
 
 INSERT INTO `forumanswer` (`id`, `question_id`, `user_id`, `answer`, `created_at`, `updated_at`) VALUES
 (1, 1, 1, 'ccsc', '2025-01-06 07:02:53', '2025-01-06 07:02:53'),
-(2, 1, 1, 'cscsccx', '2025-01-06 07:02:58', '2025-01-06 07:02:58');
+(2, 1, 1, 'cscsccx', '2025-01-06 07:02:58', '2025-01-06 07:02:58'),
+(3, 4, 4, 'cdcdd', '2025-01-07 09:22:17', '2025-01-07 09:22:17'),
+(4, 4, 4, 'cdcdd', '2025-01-07 09:23:56', '2025-01-07 09:23:56'),
+(5, 5, 4, 'dvdv', '2025-01-07 09:31:17', '2025-01-07 09:31:17'),
+(6, 6, 4, 'deded', '2025-01-07 09:38:28', '2025-01-07 09:38:28'),
+(7, 6, 4, 'deded', '2025-01-07 09:38:32', '2025-01-07 09:38:32'),
+(8, 6, 4, 'deded', '2025-01-07 09:38:35', '2025-01-07 09:38:35'),
+(9, 5, 4, 'ded', '2025-01-07 09:38:38', '2025-01-07 09:38:38'),
+(10, 7, 4, 'cdcd', '2025-01-07 09:40:24', '2025-01-07 09:40:24'),
+(11, 7, 4, 'cdcdcd', '2025-01-07 09:40:53', '2025-01-07 09:40:53'),
+(12, 7, 4, 'cdcdcd', '2025-01-07 09:41:44', '2025-01-07 09:41:44'),
+(13, 7, 4, 'dede', '2025-01-07 09:41:48', '2025-01-07 09:41:48'),
+(14, 8, 4, 'efe', '2025-01-07 10:07:07', '2025-01-07 10:07:07');
 
 -- --------------------------------------------------------
 
@@ -64,7 +104,13 @@ CREATE TABLE `forumquestion` (
 
 INSERT INTO `forumquestion` (`id`, `user_id`, `question`, `created_at`, `updated_at`) VALUES
 (1, 1, 'berapa 2+2', '2025-01-06 06:51:18', '2025-01-06 06:51:18'),
-(2, 1, 'dwwdfdsfsvd', '2025-01-06 07:00:07', '2025-01-06 07:00:07');
+(2, 1, 'dwwdfdsfsvd', '2025-01-06 07:00:07', '2025-01-06 07:00:07'),
+(3, 4, 'lol', '2025-01-07 09:22:09', '2025-01-07 09:22:09'),
+(4, 4, 'cdcdcdcdc', '2025-01-07 09:22:14', '2025-01-07 09:22:14'),
+(5, 4, 'berapa 1+1', '2025-01-07 09:27:50', '2025-01-07 09:27:50'),
+(6, 4, 'dde', '2025-01-07 09:38:24', '2025-01-07 09:38:24'),
+(7, 4, 'cedc', '2025-01-07 09:40:20', '2025-01-07 09:40:20'),
+(8, 4, 'ded', '2025-01-07 10:07:03', '2025-01-07 10:07:03');
 
 -- --------------------------------------------------------
 
@@ -139,6 +185,33 @@ INSERT INTO `questions` (`id`, `question_text`, `created_at`, `updated_at`) VALU
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `reviews`
+--
+
+CREATE TABLE `reviews` (
+  `id` int(11) NOT NULL,
+  `book_id` int(11) NOT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  `rating` int(11) NOT NULL CHECK (`rating` between 1 and 5),
+  `review` text DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data for table `reviews`
+--
+
+INSERT INTO `reviews` (`id`, `book_id`, `user_id`, `rating`, `review`, `created_at`, `updated_at`) VALUES
+(1, 1, 101, 5, 'Sangat membantu untuk belajar UTBK Saintek. Pembahasannya sangat lengkap.', '2025-01-07 07:33:59', '2025-01-07 07:33:59'),
+(2, 2, 102, 4, 'Strategi yang dijelaskan cukup praktis, namun soal-soalnya bisa lebih banyak lagi.', '2025-01-07 07:33:59', '2025-01-07 07:33:59'),
+(3, 3, 103, 5, 'Buku ini sangat lengkap untuk belajar campuran Saintek dan Soshum.', '2025-01-07 07:33:59', '2025-01-07 07:33:59'),
+(4, 4, 104, 4, 'Soal-soalnya mirip dengan UTBK asli, sangat cocok untuk latihan.', '2025-01-07 07:33:59', '2025-01-07 07:33:59'),
+(5, 5, 105, 5, 'Rangkuman materi sangat padat dan mudah dipahami. Cocok untuk belajar UTBK Soshum.', '2025-01-07 07:33:59', '2025-01-07 07:33:59');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tests`
 --
 
@@ -174,7 +247,14 @@ INSERT INTO `tests` (`id`, `user_id`, `score`, `start_time`, `end_time`, `create
 (15, 4, 0, '2025-01-07 04:20:10', NULL, '2025-01-07 11:20:10', '2025-01-07 11:20:10'),
 (16, 4, 0, '2025-01-07 04:27:29', NULL, '2025-01-07 11:27:29', '2025-01-07 11:27:29'),
 (17, 4, 4, '2025-01-07 04:28:52', NULL, '2025-01-07 11:28:53', '2025-01-07 11:29:43'),
-(18, 4, 5, '2025-01-07 04:33:09', NULL, '2025-01-07 11:33:09', '2025-01-07 11:33:38');
+(18, 4, 5, '2025-01-07 04:33:09', NULL, '2025-01-07 11:33:09', '2025-01-07 11:33:38'),
+(19, 3, 0, '2025-01-07 07:15:52', NULL, '2025-01-07 14:15:52', '2025-01-07 14:15:52'),
+(20, 3, 3, '2025-01-07 07:20:14', NULL, '2025-01-07 14:20:14', '2025-01-07 14:20:27'),
+(21, 3, 0, '2025-01-07 07:45:12', NULL, '2025-01-07 14:45:12', '2025-01-07 14:45:12'),
+(22, 3, 5, '2025-01-07 07:45:24', NULL, '2025-01-07 14:45:24', '2025-01-07 14:45:35'),
+(23, 3, 0, '2025-01-07 08:03:26', NULL, '2025-01-07 15:03:26', '2025-01-07 15:03:26'),
+(24, 3, 0, '2025-01-07 08:03:29', NULL, '2025-01-07 15:03:29', '2025-01-07 15:03:29'),
+(25, 4, 0, '2025-01-07 10:27:25', NULL, '2025-01-07 17:27:25', '2025-01-07 17:27:25');
 
 -- --------------------------------------------------------
 
@@ -241,7 +321,17 @@ INSERT INTO `test_answers` (`id`, `test_id`, `question_id`, `selected_option_id`
 (42, 18, 2, 6, 1, '2025-01-07 11:33:18', '2025-01-07 11:33:18'),
 (43, 18, 3, 11, 1, '2025-01-07 11:33:21', '2025-01-07 11:33:21'),
 (44, 18, 4, 16, 1, '2025-01-07 11:33:24', '2025-01-07 11:33:24'),
-(45, 18, 5, 21, 1, '2025-01-07 11:33:38', '2025-01-07 11:33:38');
+(45, 18, 5, 21, 1, '2025-01-07 11:33:38', '2025-01-07 11:33:38'),
+(46, 20, 1, 1, 1, '2025-01-07 14:20:19', '2025-01-07 14:20:19'),
+(47, 20, 2, 7, 0, '2025-01-07 14:20:21', '2025-01-07 14:20:21'),
+(48, 20, 3, 11, 1, '2025-01-07 14:20:23', '2025-01-07 14:20:23'),
+(49, 20, 4, 17, 0, '2025-01-07 14:20:25', '2025-01-07 14:20:25'),
+(50, 20, 5, 21, 1, '2025-01-07 14:20:27', '2025-01-07 14:20:27'),
+(51, 22, 1, 1, 1, '2025-01-07 14:45:27', '2025-01-07 14:45:27'),
+(52, 22, 2, 6, 1, '2025-01-07 14:45:30', '2025-01-07 14:45:30'),
+(53, 22, 3, 11, 1, '2025-01-07 14:45:31', '2025-01-07 14:45:31'),
+(54, 22, 4, 16, 1, '2025-01-07 14:45:33', '2025-01-07 14:45:33'),
+(55, 22, 5, 21, 1, '2025-01-07 14:45:35', '2025-01-07 14:45:35');
 
 -- --------------------------------------------------------
 
@@ -266,11 +356,18 @@ INSERT INTO `users` (`id`, `username`, `email`, `password`, `created_at`, `updat
 (1, 'john_doe', 'john@example.com', 'hashed_password_123', '2024-12-26 12:10:37', '2024-12-26 12:10:37'),
 (2, 'jane_smith', 'jane@example.com', 'hashed_password_456', '2024-12-26 12:10:37', '2024-12-26 12:10:37'),
 (3, '1@gmail.com', '1@gmail.com', '$2y$10$CKDocvZ/53VVHFey2p6WV.sWVMPuNl6EP5UR11RMFvnMkX3PXJhz6', '2024-12-26 05:12:30', '2024-12-26 05:12:30'),
-(4, 'lol', 'lol@gmail.com', '$2y$10$OwpU9W1voZ2oyEme2zhp5uP9VqU4gnuoVsKmzVAcuYtPcUa4BL5Yi', '2024-12-26 07:29:21', '2024-12-26 07:29:21');
+(4, 'lol', 'lol@gmail.com', '$2y$10$OwpU9W1voZ2oyEme2zhp5uP9VqU4gnuoVsKmzVAcuYtPcUa4BL5Yi', '2024-12-26 07:29:21', '2024-12-26 07:29:21'),
+(5, '2@gmail.com', '2@gmail.com', '$2y$10$Z/tXK9doOi.6MXfIDmt3bOfSBOrV5QW3FrJ0WKhq.H9ApuXyJz.Oy', '2025-01-07 08:51:38', '2025-01-07 08:51:38');
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `books`
+--
+ALTER TABLE `books`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `forumanswer`
@@ -301,6 +398,13 @@ ALTER TABLE `questions`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `reviews`
+--
+ALTER TABLE `reviews`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `book_id` (`book_id`);
+
+--
 -- Indexes for table `tests`
 --
 ALTER TABLE `tests`
@@ -327,16 +431,22 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT for table `books`
+--
+ALTER TABLE `books`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
 -- AUTO_INCREMENT for table `forumanswer`
 --
 ALTER TABLE `forumanswer`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `forumquestion`
 --
 ALTER TABLE `forumquestion`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `options`
@@ -351,22 +461,28 @@ ALTER TABLE `questions`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
+-- AUTO_INCREMENT for table `reviews`
+--
+ALTER TABLE `reviews`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
 -- AUTO_INCREMENT for table `tests`
 --
 ALTER TABLE `tests`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `test_answers`
 --
 ALTER TABLE `test_answers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Constraints for dumped tables
@@ -390,6 +506,12 @@ ALTER TABLE `forumquestion`
 --
 ALTER TABLE `options`
   ADD CONSTRAINT `options_ibfk_1` FOREIGN KEY (`question_id`) REFERENCES `questions` (`id`) ON DELETE CASCADE;
+
+--
+-- Constraints for table `reviews`
+--
+ALTER TABLE `reviews`
+  ADD CONSTRAINT `reviews_ibfk_1` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`) ON DELETE CASCADE;
 
 --
 -- Constraints for table `tests`
