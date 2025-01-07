@@ -24,23 +24,48 @@ class Database extends Config
      *
      * @var array<string, mixed>
      */
-    public $default = [
-        // 'DSN'      => 'postgresql://postgres:capekbang@shvvvsetahqncxywtuxb.supabase.co:5432/postgres',
-        'hostname' => '',                   // Biarkan kosong karena menggunakan DS
-        'username' => '',                   // Biarkan kosong karena menggunakan DSN
-        'password' => '',                   // Biarkan kosong karena menggunakan DSN
-        'database' => '',                   // Biarkan kosong karena menggunakan DSN
-        'DBDriver' => '',            // Driver PostgreSQL
-        'DBPrefix' => '',
-        'pConnect' => false,
-        'DBDebug'  => false,
-        'cacheDir' => '',
-        'charset'  => '',
-        'DBCollat' => '',
-        'swapPre'  => '',
-        'failover' => [],
-        'port'     => '',  // Port default untuk PostgreSQL
+    public array $default = [
+        'DSN'          => '',
+        'hostname'     => '127.0.0.1',
+        'username'     => 'root',
+        'password'     => '',
+        'database'     => 'tst_uas',
+        'DBDriver'     => 'MySQLi',
+        'DBPrefix'     => '',
+        'pConnect'     => false,
+        'DBDebug'      => true,
+        'charset'      => 'utf8mb4',
+        'DBCollat'     => 'utf8mb4_general_ci',
+        'swapPre'      => '',
+        'encrypt'      => false,
+        'compress'     => false,
+        'strictOn'     => false,
+        'failover'     => [],
+        'port'         => 3306,
+        'numberNative' => false,
+        'dateFormat'   => [
+            'date'     => 'Y-m-d',
+            'datetime' => 'Y-m-d H:i:s',
+            'time'     => 'H:i:s',
+        ],
     ];
+    // public $default = [
+    //     // 'DSN'      => 'postgresql://postgres:capekbang@shvvvsetahqncxywtuxb.supabase.co:5432/postgres',
+    //     'hostname' => '',                   // Biarkan kosong karena menggunakan DS
+    //     'username' => '',                   // Biarkan kosong karena menggunakan DSN
+    //     'password' => '',                   // Biarkan kosong karena menggunakan DSN
+    //     'database' => '',                   // Biarkan kosong karena menggunakan DSN
+    //     'DBDriver' => '',            // Driver PostgreSQL
+    //     'DBPrefix' => '',
+    //     'pConnect' => false,
+    //     'DBDebug'  => false,
+    //     'cacheDir' => '',
+    //     'charset'  => '',
+    //     'DBCollat' => '',
+    //     'swapPre'  => '',
+    //     'failover' => [],
+    //     'port'     => '',  // Port default untuk PostgreSQL
+    // ];
     
 
     //    /**

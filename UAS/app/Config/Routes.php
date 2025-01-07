@@ -30,3 +30,11 @@ $routes->get('/test/force_submit/(:num)', 'TestController::force_submit/$1');
 
 $routes->post('/test/submit_test/(:num)', 'TestController::submit_test/$1');
 $routes->get('test-env', 'EnvTest::index');
+
+$routes->get('qna', 'QnaController::index');
+$routes->post('qna/ask', 'QnaController::ask');
+
+$routes->get('forum', 'ForumController::index');     
+$routes->post('forum/addQuestion', 'ForumController::addQuestion'); 
+$routes->post('forum/addAnswer/(:num)', 'ForumController::addAnswer/$1'); 
+

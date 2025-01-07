@@ -1,0 +1,1478 @@
+INFO - 2025-01-06 12:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 12:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 12:39:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-06 12:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 12:39:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-06 12:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 12:54:15 --> Error: Undefined constant "App\Controllers\console"
+[Method: POST, Route: qna/ask]
+in APPPATH\Controllers\QnAController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\QnaController->ask()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QnaController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 12:54:16 --> Error: Undefined constant "App\Controllers\console"
+[Method: POST, Route: qna/ask]
+in APPPATH\Controllers\QnAController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\QnaController->ask()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QnaController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 12:54:22 --> Error: Undefined constant "App\Controllers\console"
+[Method: POST, Route: qna/ask]
+in APPPATH\Controllers\QnAController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\QnaController->ask()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QnaController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 12:54:26 --> Error: Undefined constant "App\Controllers\console"
+[Method: POST, Route: qna/ask]
+in APPPATH\Controllers\QnAController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\QnaController->ask()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QnaController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 12:54:46 --> Error: Undefined constant "App\Controllers\console"
+[Method: POST, Route: qna/ask]
+in APPPATH\Controllers\QnAController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\QnaController->ask()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QnaController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:03:21 --> Error: Undefined constant "App\Controllers\console"
+[Method: POST, Route: qna/ask]
+in APPPATH\Controllers\QnAController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\QnaController->ask()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QnaController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:03:51 --> Error: Undefined constant "App\Controllers\console"
+[Method: POST, Route: qna/ask]
+in APPPATH\Controllers\QnAController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\QnaController->ask()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QnaController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:03:53 --> Error: Undefined constant "App\Controllers\console"
+[Method: POST, Route: qna/ask]
+in APPPATH\Controllers\QnAController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\QnaController->ask()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QnaController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:04:33 --> ErrorException: Undefined variable $chatbotApiKey
+[Method: GET, Route: qna]
+in APPPATH\Controllers\QnAController.php on line 19.
+ 1 APPPATH\Controllers\QnAController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chatbotApiKey', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\QnAController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\QnaController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:05:04 --> ErrorException: Undefined variable $chatbotApiKey
+[Method: GET, Route: qna]
+in APPPATH\Controllers\QnAController.php on line 19.
+ 1 APPPATH\Controllers\QnAController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chatbotApiKey', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\QnAController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\QnaController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:05:06 --> ErrorException: Undefined variable $chatbotApiKey
+[Method: GET, Route: qna]
+in APPPATH\Controllers\QnAController.php on line 19.
+ 1 APPPATH\Controllers\QnAController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chatbotApiKey', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\QnAController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\QnaController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:06:23 --> Error: Undefined constant "App\Controllers\console"
+[Method: POST, Route: qna/ask]
+in APPPATH\Controllers\QnAController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\QnaController->ask()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QnaController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:08:09 --> Error: Undefined constant "App\Controllers\console"
+[Method: POST, Route: qna/ask]
+in APPPATH\Controllers\QnAController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\QnaController->ask()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QnaController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+DEBUG - 2025-01-06 13:11:14 --> Input: {"question":"berapa 2+2"}
+ERROR - 2025-01-06 13:11:14 --> Error saat memanggil API: 6 : Could not resolve host: api.chatbotgemini.com
+DEBUG - 2025-01-06 13:15:52 --> Input: {"question":"berapa 2+2"}
+ERROR - 2025-01-06 13:15:52 --> Error saat memanggil API: 6 : Could not resolve host: api.chatbotgemini.com
+ERROR - 2025-01-06 13:22:02 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\College\5th_Sem\TST\TST_UAS\UAS\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Models\ForumModel.php(17): CodeIgniter\Model->insert(Array)
+#8 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Controllers\ForumController.php(22): App\Models\ForumModel->saveQuestion('rtbb')
+#9 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(933): App\Controllers\ForumController->askQuestion()
+#10 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+#11 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\College\5th_Sem\TST\TST_UAS\UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\College\5th_Sem\TST\TST_UAS\UAS\system\rewrite.php(44): require_once('D:\\College\\5th_...')
+#16 {main}
+CRITICAL - 2025-01-06 13:22:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: forum/askQuestion]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumquestion` (`question`, `created_at`, `updated_at`) VALUES (:question:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForumModel.php(17): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForumController.php(22): App\Models\ForumModel->saveQuestion('rtbb')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->askQuestion()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:22:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `forumquestion` (`question`, `created_at`, `updated_at`) VALUES (\'rtbb\', \'2025-01-06 13:22:02\', \'2025-01-06 13:22:02\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `forumquestion` (`question`, `created_at`, `updated_at`) VALUES (\'rtbb\', \'2025-01-06 13:22:02\', \'2025-01-06 13:22:02\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumquestion` (`question`, `created_at`, `updated_at`) VALUES (:question:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\ForumModel.php(17): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\ForumController.php(22): App\Models\ForumModel->saveQuestion('rtbb')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->askQuestion()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:22:02 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `forumquestion` (`question`, `created_at`, `updated_at`) VALUES (\'rtbb\', \'2025-01-06 13:22:02\', \'2025-01-06 13:22:02\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `forumquestion` (`question`, `created_at`, `updated_at`) VALUES (\'rtbb\', \'2025-01-06 13:22:02\', \'2025-01-06 13:22:02\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `forumquestion` (`question`, `created_at`, `updated_at`) VALUES (\'rtbb\', \'2025-01-06 13:22:02\', \'2025-01-06 13:22:02\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumquestion` (`question`, `created_at`, `updated_at`) VALUES (:question:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\ForumModel.php(17): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\ForumController.php(22): App\Models\ForumModel->saveQuestion('rtbb')
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->askQuestion()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 13:35:31 --> BadMethodCallException: Call to undefined method App\Models\ForumModel::getForumQuestions
+[Method: GET, Route: forum]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\ForumController.php(35): CodeIgniter\Model->__call('getForumQuestions', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-06 13:36:25 --> mysqli_sql_exception: Unknown column 'users.name' in 'field list' in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `forumqu...', 0)
+#1 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumqu...')
+#2 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumqu...')
+#3 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumqu...', Array, false)
+#4 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\College\5th_Sem\TST\TST_UAS\UAS\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+#8 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(933): App\Controllers\ForumController->index()
+#9 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+#10 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\College\5th_Sem\TST\TST_UAS\UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\College\5th_Sem\TST\TST_UAS\UAS\system\rewrite.php(44): require_once('D:\\College\\5th_...')
+#15 {main}
+CRITICAL - 2025-01-06 13:36:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.name' in 'field list'
+[Method: GET, Route: forum]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`name` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:36:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`name` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`name` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`name` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:36:25 --> [Caused by] mysqli_sql_exception: Unknown column 'users.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`name` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`name` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`name` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`name` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-06 13:36:55 --> mysqli_sql_exception: Unknown column 'users_answer.name' in 'field list' in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `forumqu...', 0)
+#1 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumqu...')
+#2 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumqu...')
+#3 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumqu...', Array, false)
+#4 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\College\5th_Sem\TST\TST_UAS\UAS\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+#8 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(933): App\Controllers\ForumController->index()
+#9 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+#10 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\College\5th_Sem\TST\TST_UAS\UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\College\5th_Sem\TST\TST_UAS\UAS\system\rewrite.php(44): require_once('D:\\College\\5th_...')
+#15 {main}
+CRITICAL - 2025-01-06 13:36:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users_answer.name' in 'field list'
+[Method: GET, Route: forum]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:36:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users_answer.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:36:55 --> [Caused by] mysqli_sql_exception: Unknown column 'users_answer.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-06 13:37:46 --> mysqli_sql_exception: Unknown column 'users_answer.name' in 'field list' in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `forumqu...', 0)
+#1 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumqu...')
+#2 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumqu...')
+#3 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumqu...', Array, false)
+#4 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\College\5th_Sem\TST\TST_UAS\UAS\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+#8 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(933): App\Controllers\ForumController->index()
+#9 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+#10 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\College\5th_Sem\TST\TST_UAS\UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\College\5th_Sem\TST\TST_UAS\UAS\system\rewrite.php(44): require_once('D:\\College\\5th_...')
+#15 {main}
+CRITICAL - 2025-01-06 13:37:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users_answer.name' in 'field list'
+[Method: GET, Route: forum]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:37:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users_answer.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:37:46 --> [Caused by] mysqli_sql_exception: Unknown column 'users_answer.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-06 13:37:50 --> mysqli_sql_exception: Unknown column 'users_answer.name' in 'field list' in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `forumqu...', 0)
+#1 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumqu...')
+#2 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumqu...')
+#3 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumqu...', Array, false)
+#4 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\College\5th_Sem\TST\TST_UAS\UAS\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+#8 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(933): App\Controllers\ForumController->index()
+#9 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+#10 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\College\5th_Sem\TST\TST_UAS\UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\College\5th_Sem\TST\TST_UAS\UAS\system\rewrite.php(44): require_once('D:\\College\\5th_...')
+#15 {main}
+CRITICAL - 2025-01-06 13:37:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users_answer.name' in 'field list'
+[Method: GET, Route: forum]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:37:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users_answer.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:37:50 --> [Caused by] mysqli_sql_exception: Unknown column 'users_answer.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-06 13:37:51 --> mysqli_sql_exception: Unknown column 'users_answer.name' in 'field list' in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `forumqu...', 0)
+#1 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumqu...')
+#2 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumqu...')
+#3 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumqu...', Array, false)
+#4 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\College\5th_Sem\TST\TST_UAS\UAS\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+#7 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+#8 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(933): App\Controllers\ForumController->index()
+#9 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+#10 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\College\5th_Sem\TST\TST_UAS\UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\College\5th_Sem\TST\TST_UAS\UAS\system\rewrite.php(44): require_once('D:\\College\\5th_...')
+#15 {main}
+CRITICAL - 2025-01-06 13:37:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users_answer.name' in 'field list'
+[Method: GET, Route: forum]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:37:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users_answer.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:37:51 --> [Caused by] mysqli_sql_exception: Unknown column 'users_answer.name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `forumquestion`.`id`, `forumquestion`.`question`, `forumquestion`.`user_id` as `question_user_id`, `users`.`username` as `question_user_name`, `forumanswer`.`answer`, `forumanswer`.`user_id` as `answer_user_id`, `users_answer`.`name` as `answer_user_name`, `forumquestion`.`created_at`
+FROM `forumquestion`
+LEFT JOIN `forumanswer` ON `forumanswer`.`question_id` = `forumquestion`.`id`
+LEFT JOIN `users` ON `forumquestion`.`user_id` = `users`.`id`
+LEFT JOIN `users` as `users_answer` ON `forumanswer`.`user_id` = `users_answer`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ForumModel.php(42): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\ForumController.php(35): App\Models\ForumModel->getForumQuestions()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 13:39:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "forum/index.php"
+[Method: GET, Route: forum]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forum/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum/index', [], true)
+ 3 APPPATH\Controllers\ForumController.php(38): view('forum/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 13:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 13:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 13:41:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "forum_view/add_question.php"
+[Method: POST, Route: forum/askQuestion]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forum_view/add_question.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum_view/add_question', [], true)
+ 3 APPPATH\Controllers\ForumController.php(65): view('forum_view/add_question')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->askQuestion()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 13:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 13:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 13:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 13:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 13:44:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "forum_view/add_question.php"
+[Method: POST, Route: add-question]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forum_view/add_question.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum_view/add_question', [], true)
+ 3 APPPATH\Controllers\ForumController.php(65): view('forum_view/add_question')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 13:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 13:44:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "forum_view/add_question.php"
+[Method: POST, Route: add-question]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forum_view/add_question.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum_view/add_question', [], true)
+ 3 APPPATH\Controllers\ForumController.php(65): view('forum_view/add_question')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 13:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 13:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 13:45:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "forum_view/add_question.php"
+[Method: POST, Route: add-question]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forum_view/add_question.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum_view/add_question', [], true)
+ 3 APPPATH\Controllers\ForumController.php(65): view('forum_view/add_question')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:48:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "forum.php"
+[Method: GET, Route: forum]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forum.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+ 3 APPPATH\Controllers\ForumController.php(17): view('forum', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:48:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "forum.php"
+[Method: GET, Route: forum]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forum.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+ 3 APPPATH\Controllers\ForumController.php(17): view('forum', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:49:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "forum.php"
+[Method: GET, Route: forum]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forum.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+ 3 APPPATH\Controllers\ForumController.php(17): view('forum', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-06 13:49:12 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\College\5th_Sem\TST\TST_UAS\UAS\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Models\ForumModel.php(27): CodeIgniter\Model->insert(Array)
+#8 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Controllers\ForumController.php(28): App\Models\ForumModel->saveQuestion(Array)
+#9 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+#10 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+#11 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\College\5th_Sem\TST\TST_UAS\UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\College\5th_Sem\TST\TST_UAS\UAS\system\rewrite.php(44): require_once('D:\\College\\5th_...')
+#16 {main}
+CRITICAL - 2025-01-06 13:49:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: forum/addQuestion]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (:user_id:, :question:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForumModel.php(27): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForumController.php(28): App\Models\ForumModel->saveQuestion([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:49:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (1, \'berapa 2+2\', \'2025-01-06 13:49:12\', \'2025-01-06 13:49:12\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (1, \'berapa 2+2\', \'2025-01-06 13:49:12\', \'2025-01-06 13:49:12\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (:user_id:, :question:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\ForumModel.php(27): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\ForumController.php(28): App\Models\ForumModel->saveQuestion([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:49:12 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (1, \'berapa 2+2\', \'2025-01-06 13:49:12\', \'2025-01-06 13:49:12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (1, \'berapa 2+2\', \'2025-01-06 13:49:12\', \'2025-01-06 13:49:12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (1, \'berapa 2+2\', \'2025-01-06 13:49:12\', \'2025-01-06 13:49:12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (:user_id:, :question:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\ForumModel.php(27): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\ForumController.php(28): App\Models\ForumModel->saveQuestion([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-06 13:49:42 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\College\5th_Sem\TST\TST_UAS\UAS\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Models\ForumModel.php(27): CodeIgniter\Model->insert(Array)
+#8 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Controllers\ForumController.php(28): App\Models\ForumModel->saveQuestion(Array)
+#9 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+#10 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+#11 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\College\5th_Sem\TST\TST_UAS\UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\College\5th_Sem\TST\TST_UAS\UAS\system\rewrite.php(44): require_once('D:\\College\\5th_...')
+#16 {main}
+CRITICAL - 2025-01-06 13:49:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: forum/addQuestion]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (:user_id:, :question:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForumModel.php(27): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForumController.php(28): App\Models\ForumModel->saveQuestion([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:49:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (1, \'berapa 2+2\', \'2025-01-06 13:49:42\', \'2025-01-06 13:49:42\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (1, \'berapa 2+2\', \'2025-01-06 13:49:42\', \'2025-01-06 13:49:42\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (:user_id:, :question:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\ForumModel.php(27): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\ForumController.php(28): App\Models\ForumModel->saveQuestion([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:49:42 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (1, \'berapa 2+2\', \'2025-01-06 13:49:42\', \'2025-01-06 13:49:42\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (1, \'berapa 2+2\', \'2025-01-06 13:49:42\', \'2025-01-06 13:49:42\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (1, \'berapa 2+2\', \'2025-01-06 13:49:42\', \'2025-01-06 13:49:42\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (:user_id:, :question:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\ForumModel.php(27): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\ForumController.php(28): App\Models\ForumModel->saveQuestion([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 13:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 13:51:19 --> ErrorException: Undefined variable $forumModel
+[Method: GET, Route: forum]
+in APPPATH\Views\forum.php on line 61.
+ 1 APPPATH\Views\forum.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $forumModel', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\ForumController.php(17): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 13:52:09 --> ErrorException: Undefined variable $forumModel
+[Method: GET, Route: forum]
+in APPPATH\Views\forum.php on line 61.
+ 1 APPPATH\Views\forum.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $forumModel', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\ForumController.php(17): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 13:52:10 --> ErrorException: Undefined variable $forumModel
+[Method: GET, Route: forum]
+in APPPATH\Views\forum.php on line 61.
+ 1 APPPATH\Views\forum.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $forumModel', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\ForumController.php(17): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:54:19 --> BadMethodCallException: Call to undefined method App\Models\ForumModel::getQuestions
+[Method: GET, Route: forum]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\ForumController.php(15): CodeIgniter\Model->__call('getQuestions', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 13:56:03 --> ErrorException: Undefined variable $forumModel
+[Method: GET, Route: forum]
+in APPPATH\Views\forum.php on line 61.
+ 1 APPPATH\Views\forum.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $forumModel', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\ForumController.php(18): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 13:56:31 --> ErrorException: Undefined variable $questions
+[Method: GET, Route: forum]
+in APPPATH\Controllers\ForumController.php on line 18.
+ 1 APPPATH\Controllers\ForumController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $questions', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\ForumController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 13:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 13:58:32 --> ErrorException: Undefined variable $forumModel
+[Method: GET, Route: forum]
+in APPPATH\Views\forum.php on line 61.
+ 1 APPPATH\Views\forum.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $forumModel', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\ForumController.php(19): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:00:11 --> BadMethodCallException: Call to undefined method App\Models\ForumAnswerModel::saveAnswer
+[Method: POST, Route: forum/addAnswer/1]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\ForumController.php(54): CodeIgniter\Model->__call('saveAnswer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addAnswer('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:00:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-06 14:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:00:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-06 14:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-06 14:01:33 --> mysqli_sql_exception: Table 'tst_uas.forum_answers' doesn't exist in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\College\5th_Sem\TST\TST_UAS\UAS\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Models\ForumModel.php(41): CodeIgniter\BaseModel->findAll()
+#7 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Views\forum.php(62): App\Models\ForumModel->getAnswers('1')
+#8 D:\College\5th_Sem\TST\TST_UAS\UAS\system\View\View.php(234): include('D:\\College\\5th_...')
+#9 D:\College\5th_Sem\TST\TST_UAS\UAS\system\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Common.php(1171): CodeIgniter\View\View->render('forum', Array, true)
+#11 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Controllers\ForumController.php(18): view('forum', Array)
+#12 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(933): App\Controllers\ForumController->index()
+#13 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+#14 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#16 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#17 D:\College\5th_Sem\TST\TST_UAS\UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#18 D:\College\5th_Sem\TST\TST_UAS\UAS\system\rewrite.php(44): require_once('D:\\College\\5th_...')
+#19 {main}
+CRITICAL - 2025-01-06 14:01:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'tst_uas.forum_answers' doesn't exist
+[Method: GET, Route: forum]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `forum_answers`
+WHERE `question_id` = :question_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ForumModel.php(41): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Views\forum.php(62): App\Models\ForumModel->getAnswers('1')
+ 6 SYSTEMPATH\View\View.php(234): include('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+ 9 APPPATH\Controllers\ForumController.php(18): view('forum', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 14:01:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'tst_uas.forum_answers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `forum_answers`
+WHERE `question_id` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `forum_answers`
+WHERE `question_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `forum_answers`
+WHERE `question_id` = :question_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ForumModel.php(41): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Views\forum.php(62): App\Models\ForumModel->getAnswers('1')
+ 8 SYSTEMPATH\View\View.php(234): include('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php')
+ 9 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+11 APPPATH\Controllers\ForumController.php(18): view('forum', [...])
+12 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+13 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+14 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 14:01:33 --> [Caused by] mysqli_sql_exception: Table 'tst_uas.forum_answers' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `forum_answers`
+WHERE `question_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `forum_answers`
+WHERE `question_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `forum_answers`
+WHERE `question_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `forum_answers`
+WHERE `question_id` = :question_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ForumModel.php(41): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Views\forum.php(62): App\Models\ForumModel->getAnswers('1')
+ 9 SYSTEMPATH\View\View.php(234): include('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php')
+10 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+12 APPPATH\Controllers\ForumController.php(18): view('forum', [...])
+13 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+14 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+15 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+19 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-06 14:02:21 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `fo...', 0)
+#1 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fo...')
+#2 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fo...')
+#3 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fo...', Array, false)
+#4 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\College\5th_Sem\TST\TST_UAS\UAS\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Models\ForumAnswerModel.php(17): CodeIgniter\Model->insert(Array)
+#8 D:\College\5th_Sem\TST\TST_UAS\UAS\app\Controllers\ForumController.php(48): App\Models\ForumAnswerModel->saveAnswer(Array)
+#9 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(933): App\Controllers\ForumController->addAnswer('1')
+#10 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+#11 D:\College\5th_Sem\TST\TST_UAS\UAS\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\College\5th_Sem\TST\TST_UAS\UAS\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\College\5th_Sem\TST\TST_UAS\UAS\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\College\5th_Sem\TST\TST_UAS\UAS\system\rewrite.php(44): require_once('D:\\College\\5th_...')
+#16 {main}
+CRITICAL - 2025-01-06 14:02:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: forum/addAnswer/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumanswer` (`question_id`, `user_id`, `answer`, `created_at`, `updated_at`) VALUES (:question_id:, :user_id:, :answer:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForumAnswerModel.php(17): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForumController.php(48): App\Models\ForumAnswerModel->saveAnswer([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addAnswer('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 14:02:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `forumanswer` (`question_id`, `user_id`, `answer`, `created_at`, `updated_at`) VALUES (\'1\', 1, \'ccsc\', \'2025-01-06 14:02:21\', \'2025-01-06 14:02:21\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `forumanswer` (`question_id`, `user_id`, `answer`, `created_at`, `updated_at`) VALUES (\'1\', 1, \'ccsc\', \'2025-01-06 14:02:21\', \'2025-01-06 14:02:21\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumanswer` (`question_id`, `user_id`, `answer`, `created_at`, `updated_at`) VALUES (:question_id:, :user_id:, :answer:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Models\ForumAnswerModel.php(17): CodeIgniter\Model->insert([...])
+ 8 APPPATH\Controllers\ForumController.php(48): App\Models\ForumAnswerModel->saveAnswer([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addAnswer('1')
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 14:02:21 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `forumanswer` (`question_id`, `user_id`, `answer`, `created_at`, `updated_at`) VALUES (\'1\', 1, \'ccsc\', \'2025-01-06 14:02:21\', \'2025-01-06 14:02:21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `forumanswer` (`question_id`, `user_id`, `answer`, `created_at`, `updated_at`) VALUES (\'1\', 1, \'ccsc\', \'2025-01-06 14:02:21\', \'2025-01-06 14:02:21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `forumanswer` (`question_id`, `user_id`, `answer`, `created_at`, `updated_at`) VALUES (\'1\', 1, \'ccsc\', \'2025-01-06 14:02:21\', \'2025-01-06 14:02:21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumanswer` (`question_id`, `user_id`, `answer`, `created_at`, `updated_at`) VALUES (:question_id:, :user_id:, :answer:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\ForumAnswerModel.php(17): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\ForumController.php(48): App\Models\ForumAnswerModel->saveAnswer([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addAnswer('1')
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:09:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-06 14:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:09:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-06 14:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:09:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:09:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:09:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:09:50 --> ErrorException: Undefined property: stdClass::$id
+[Method: POST, Route: forum/addQuestion]
+in APPPATH\Controllers\ForumController.php on line 25.
+ 1 APPPATH\Controllers\ForumController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\ForumController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:11:24 --> ErrorException: Undefined property: stdClass::$id
+[Method: POST, Route: forum/addQuestion]
+in APPPATH\Controllers\ForumController.php on line 49.
+ 1 APPPATH\Controllers\ForumController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\ForumController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:11:25 --> ErrorException: Undefined variable $forumModel
+[Method: GET, Route: forum]
+in APPPATH\Views\forum.php on line 62.
+ 1 APPPATH\Views\forum.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $forumModel', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php', 62)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\ForumController.php(29): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:11:28 --> ErrorException: Undefined variable $forumModel
+[Method: GET, Route: forum]
+in APPPATH\Views\forum.php on line 62.
+ 1 APPPATH\Views\forum.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $forumModel', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php', 62)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\ForumController.php(29): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:12:13 --> ErrorException: Undefined property: stdClass::$id
+[Method: POST, Route: forum/addQuestion]
+in APPPATH\Controllers\ForumController.php on line 49.
+ 1 APPPATH\Controllers\ForumController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\ForumController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-06 14:13:50 --> ParseError: syntax error, unexpected token "if"
+[Method: POST, Route: forum/addQuestion]
+in APPPATH\Controllers\ForumController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\ForumController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ForumController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ForumController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\ForumController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:14:09 --> ErrorException: Undefined variable $userId
+[Method: POST, Route: forum/addQuestion]
+in APPPATH\Controllers\ForumController.php on line 54.
+ 1 APPPATH\Controllers\ForumController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\ForumController.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:14:50 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: forum/addQuestion]
+in SYSTEMPATH\Database\Query.php on line 337.
+ 1 SYSTEMPATH\Database\Query.php(337): strtr('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (:user_id:, :question:, :created_at:, :updated_at:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (:user_id:, :question:, :created_at:, :updated_at:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `forumquestion` (`user_id`, `question`, `created_at`, `updated_at`) VALUES (:user_id:, :question:, :created_at:, :updated_at:)', [...], false)
+ 6 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Models\ForumModel.php(27): CodeIgniter\Model->insert([...])
+10 APPPATH\Controllers\ForumController.php(53): App\Models\ForumModel->saveQuestion([...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:17:20 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: forum/addQuestion]
+in APPPATH\Controllers\ForumController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:18:16 --> ErrorException: Undefined property: stdClass::$id
+[Method: POST, Route: forum/addQuestion]
+in APPPATH\Controllers\ForumController.php on line 45.
+ 1 APPPATH\Controllers\ForumController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\ForumController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ForumController->addQuestion()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForumController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-06 14:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:19:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-06 14:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:19:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-06 14:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-06 14:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:19:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-06 14:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -144,6 +144,20 @@
 
         <!-- Main Content -->
         <div class="row g-4">
+            <!-- Forum Diskusi Card -->
+            <div class="col-md-6 col-lg-3">
+                <div class="dashboard-card">
+                    <div class="card-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="card-title">Forum Diskusi</h3>
+                    <p class="card-description">Bergabung dan ajukan pertanyaan mengenai UTBK.</p>
+                    <a href="/forum" class="action-button">
+                        Kunjungi Forum
+                    </a>
+                </div>
+            </div>
+
             <!-- Quick Start Card -->
             <div class="col-md-6 col-lg-3">
                 <div class="dashboard-card">
@@ -172,20 +186,6 @@
                 </div>
             </div>
 
-            <!-- Practice Tests -->
-            <div class="col-md-6 col-lg-3">
-                <div class="dashboard-card">
-                    <div class="card-icon">
-                        <i class="fas fa-tasks"></i>
-                    </div>
-                    <h3 class="card-title">Coming Soon</h3>
-                    <p class="card-description">Halaman ini masih berada pada tahap pembuatan dan pengembangan.</p>
-                    <a href="/test/start" class="action-button">
-                        Coming Soon
-                    </a>
-                </div>
-            </div>
-
             <!-- Study Schedule -->
             <div class="col-md-6 col-lg-3">
                 <div class="dashboard-card">
@@ -209,24 +209,12 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="<?= base_url('assets/images/tipsfin.jpg'); ?>" class="d-block w-100" alt="Tips UTBK">
-                                <div class="carousel-caption">
-                                    <!-- <h5>Tips Sukses UTBK</h5>
-                                    <p>Pelajari strategi menghadapi UTBK dari para ahli</p> -->
-                                </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="<?= base_url('assets/images/jadwalfin.jpg'); ?>" class="d-block w-100" alt="Jadwal UTBK">
-                                <div class="carousel-caption">
-                                    <!-- <h5>Jadwal UTBK 2024</h5>
-                                    <p>Persiapkan diri Anda menghadapi UTBK</p> -->
-                                </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="<?= base_url('assets/images/materifin.jpg'); ?>" class="d-block w-100" alt="Materi UTBK">
-                                <div class="carousel-caption">
-                                    <!-- <h5>Materi Terbaru</h5>
-                                    <p>Update materi sesuai kisi-kisi terbaru</p> -->
-                                </div>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#dashboardCarousel" data-bs-slide="prev">
