@@ -34,7 +34,12 @@ $routes->get('test-env', 'EnvTest::index');
 $routes->get('qna', 'QnaController::index');
 $routes->post('qna/ask', 'QnaController::ask');
 
-$routes->get('forum', 'ForumController::index');     
-$routes->post('forum/addQuestion', 'ForumController::addQuestion'); 
-$routes->post('forum/addAnswer/(:num)', 'ForumController::addAnswer/$1'); 
+$routes->get('/forum', 'ForumController::index', ['filter' => 'auth']);
+$routes->post('/forum/addQuestion', 'ForumController::addQuestion', ['filter' => 'auth']);
+$routes->post('/forum/addAnswer/(:num)', 'ForumController::addAnswer/$1', ['filter' => 'auth']);
+$routes->get('forum/view/(:num)', 'ForumController::viewQuestion/$1');
 
+
+$routes->get('books', 'Books::index');
+$routes->get('books/show/(:num)', 'Books::show/$1');
+$routes->get('booksPage', 'Books::viewBooks');

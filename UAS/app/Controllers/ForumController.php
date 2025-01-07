@@ -2,90 +2,107 @@
 
 namespace App\Controllers;
 
-use CodeIgniter\Controller;
-use App\Models\ForumModel;
+use App\Models\ForumQuestionModel;
 use App\Models\ForumAnswerModel;
+use App\Models\UserModel; // Pastikan model User sudah ada
+use CodeIgniter\Controller;
 
 class ForumController extends Controller
 {
-    // Menampilkan semua pertanyaan beserta jawabannya
+    protected $questionModel;
+    protected $answerModel;
+    protected $userModel;
+
+    public function __construct()
+    {
+        $this->questionModel = new ForumQuestionModel();
+        $this->answerModel = new ForumAnswerModel();
+        $this->userModel = new UserModel(); // Tambahkan model User
+    }
+
     public function index()
     {
-        // Mengambil session
         $session = session();
-        $user = $session->get('user'); // Mendapatkan data user yang ada di session
+        $user = $session->get('user'); // Ambil data user dari session
 
-        // Cek jika tidak ada user di session, arahkan ke login
-        if (!$user || !isset($user->id)) {
-            return redirect()->to('/login')->with('error', 'Anda harus login terlebih dahulu.');
+        if (!$user) {
+            return redirect()->to('/login')->with('error', 'Anda harus login untuk mengakses halaman ini.');
         }
 
-        // Menampilkan semua pertanyaan dan jawabannya
-        $forumModel = new ForumModel();
-        $data['questions'] = $forumModel->getForumQuestions();
-        $data['forumModel'] = $forumModel; // Menambahkan model untuk digunakan di view
+        // Ambil semua pertanyaan beserta username dan jawaban terkait
+        $questions = $this->questionModel
+            ->select('forumquestion.*, users.username AS question_username')
+            ->join('users', 'users.id = forumquestion.user_id')
+            ->orderBy('forumquestion.created_at', 'DESC')
+            ->findAll();
 
-        return view('forum', $data); // Menampilkan view forum.php
+        foreach ($questions as &$question) {
+            $question['answers'] = $this->answerModel
+                ->select('forumanswer.*, users.username AS answer_username')
+                ->join('users', 'users.id = forumanswer.user_id')
+                ->where('forumanswer.question_id', $question['id'])
+                ->findAll();
+        }
+
+        return view('forum', [
+            'username' => $user->username,
+            'user_id' => $user->user_id,
+            'questions' => $questions,
+        ]);
     }
 
-    // Menambahkan pertanyaan baru
     public function addQuestion()
     {
-        // Mengambil session
         $session = session();
-        $user = $session->get('user'); // Mendapatkan data user yang ada di session
+        $user = $session->get('user');
 
-        // Cek jika tidak ada user di session, arahkan ke login
-        if (!$user || !isset($user->id)) {
-            return redirect()->to('/login')->with('error', 'Anda harus login terlebih dahulu.');
+        if (!$user) {
+            return redirect()->to('/login')->with('error', 'Anda harus login untuk mengakses halaman ini.');
         }
 
-        // Mendapatkan data pertanyaan
         $question = $this->request->getPost('question');
-        $userId = $user->id; // Mengakses id dengan tanda "->" karena $user adalah objek
 
-        // Jika pertanyaan ada, simpan ke dalam database
-        if ($question) {
-            $forumModel = new ForumModel();
-            $forumModel->saveQuestion([
-                'user_id' => $userId,
-                'question' => $question,
-            ]);
-
-            return redirect()->to('/forum');
-        } else {
+        if (!$question) {
             return redirect()->back()->with('error', 'Pertanyaan tidak boleh kosong.');
         }
+
+        $this->questionModel->insert([
+            'user_id' => $user->user_id,
+            'question' => $question,
+        ]);
+
+        return redirect()->to('/forum')->with('success', 'Pertanyaan berhasil ditambahkan.');
     }
 
-    // Menambahkan jawaban pada pertanyaan
     public function addAnswer($questionId)
     {
-        // Mengambil session
         $session = session();
-        $user = $session->get('user'); // Mendapatkan data user yang ada di session
+        $user = $session->get('user');
 
-        // Cek jika tidak ada user di session, arahkan ke login
-        if (!$user || !isset($user->id)) {
-            return redirect()->to('/login')->with('error', 'Anda harus login terlebih dahulu.');
+        if (!$user) {
+            return redirect()->to('/login')->with('error', 'Anda harus login untuk mengakses halaman ini.');
         }
 
-        // Mendapatkan data jawaban
         $answer = $this->request->getPost('answer');
-        $userId = $user->id; // Mengakses id dengan tanda "->" karena $user adalah objek
 
-        // Jika jawaban ada, simpan ke dalam database
-        if ($answer) {
-            $forumAnswerModel = new ForumAnswerModel(); // Menggunakan ForumAnswerModel
-            $forumAnswerModel->saveAnswer([ // Memanggil metode saveAnswer
-                'question_id' => $questionId,
-                'user_id' => $userId,
-                'answer' => $answer,
-            ]);
-
-            return redirect()->to('/forum');
-        } else {
+        if (!$answer) {
             return redirect()->back()->with('error', 'Jawaban tidak boleh kosong.');
         }
+
+        $this->answerModel->insert([
+            'question_id' => $questionId,
+            'user_id' => $user->user_id,
+            'answer' => $answer,
+        ]);
+
+        // Ambil jawaban terbaru untuk dikirimkan ke view
+        $newAnswer = $this->answerModel
+            ->select('forumanswer.*, users.username AS answer_username')
+            ->join('users', 'users.id = forumanswer.user_id')
+            ->where('forumanswer.question_id', $questionId)
+            ->orderBy('forumanswer.created_at', 'DESC')
+            ->first();
+
+        return redirect()->to('/forum')->with('success', 'Jawaban berhasil ditambahkan.');
     }
 }
