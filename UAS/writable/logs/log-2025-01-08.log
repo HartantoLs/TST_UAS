@@ -1,0 +1,354 @@
+INFO - 2025-01-08 04:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 04:10:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 04:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 04:10:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 04:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 05:02:43 --> Error: Class "App\Controllers\BaseController" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Tanto\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\Tanto\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Tanto\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Tanto\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Tanto\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-08 05:02:44 --> Error: Class "App\Controllers\BaseController" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Tanto\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\Tanto\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Tanto\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Tanto\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Tanto\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-08 05:02:48 --> Error: Class "App\Controllers\BaseController" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Tanto\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\Tanto\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Tanto\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Tanto\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Tanto\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 05:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 05:03:10 --> Error: Class "App\Controllers\BaseController" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Tanto\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\Tanto\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Tanto\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Tanto\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Tanto\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 05:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 05:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-08 05:03:37 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Tanto/DashboardController::index"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Tanto/DashboardController::index')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-08 05:03:37 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Tanto/DashboardController::index"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Tanto/DashboardController::index')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+CRITICAL - 2025-01-08 05:03:37 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Tanto/DashboardController::index"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Tanto/DashboardController::index')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('dashboard')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 05:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 05:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 05:04:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 05:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 05:04:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 05:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 05:05:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 05:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 05:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 05:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 05:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 05:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 05:37:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 05:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 05:37:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 05:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 05:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 05:37:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 05:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 05:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 05:40:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 05:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 05:40:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+WARNING - 2025-01-08 06:21:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:27:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:29:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:29:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:30:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:34:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:34:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:35:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 06:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:35:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 06:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:37:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:38:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:40:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:40:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:48:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:49:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:52:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:52:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:52:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:53:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:53:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\TestController::$jwtKey is deprecated in APPPATH\Controllers\TestController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TestController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-08 06:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:53:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 06:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:53:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 06:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:53:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 06:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:53:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 06:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-08 06:53:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-08 06:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-08 06:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -9,6 +9,8 @@ class ReviewModel extends Model
     protected $primaryKey = 'id';
     protected $allowedFields = ['book_id', 'user_id', 'rating', 'review', 'created_at', 'updated_at'];
 
+    protected $DBGroup = 'secondary'; 
+
     public function getReviewsByBookId($book_id)
     {
         return $this->where('book_id', $book_id)->findAll();

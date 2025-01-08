@@ -372,6 +372,59 @@ class TestController extends Controller
         ]);
     }
     
+    public function all_results()
+    {
+        $session = session();
+        $user = $session->get('user');
+
+        if (!$user) {
+            return $this->response->setJSON(['error' => 'Unauthorized'])->setStatusCode(401);
+        }
+
+        // Ambil semua tes pengguna
+        $tests = $this->testModel->where('user_id', $user->user_id)->findAll();
+
+        if (empty($tests)) {
+            return $this->response->setJSON(['message' => 'No tests found'])->setStatusCode(404);
+        }
+
+        $allResults = [];
+
+        foreach ($tests as $test) {
+            // Ambil semua jawaban untuk tes ini
+            $testAnswers = $this->testAnswerModel->getAnswersByTestId($test['id']);
+
+            // Ambil detail setiap jawaban
+            $detailedAnswers = [];
+            foreach ($testAnswers as $answer) {
+                $question = $this->questionModel->getQuestionDetails($answer['question_id']);
+                $selectedOption = $this->optionModel->find($answer['selected_option_id']);
+                $correctOption = $this->optionModel
+                    ->where('question_id', $answer['question_id'])
+                    ->where('is_correct', 1)
+                    ->first();
+
+                $detailedAnswers[] = [
+                    'question_text' => $question['question_text'],
+                    'topic_covered' => $question['topic_covered'],
+                    'question_type' => $question['question_type'],
+                    'selected_option' => $selectedOption ? $selectedOption['option_text'] : null,
+                    'is_correct' => $answer['is_correct'],
+                    'correct_option' => $correctOption ? $correctOption['option_text'] : null
+                ];
+            }
+
+            // Tambahkan hasil tes ke array
+            $allResults[] = [
+                'test' => $test,
+                'answers' => $detailedAnswers,
+                'score' => $test['score'],
+                'total_questions' => count($detailedAnswers)
+            ];
+        }
+
+        return $this->response->setJSON($allResults);
+    }
 
     // Menampilkan progress pengguna
     public function progress()

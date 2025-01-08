@@ -8,50 +8,90 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
         :root {
-            --primary: #4f46e5;
-            --primary-hover: #4338ca;
-            --secondary: #6b7280;
-            --background: #f8fafc;
+            --primary-color: #1a237e;
+            --secondary-color: #283593;
+            --accent-color: #3949ab;
+            --light-color: #e8eaf6;
+            --text-color: #283593;
+            --border-color: #e0e6ed;
             --card-bg: #ffffff;
-            --text-primary: #111827;
-            --text-secondary: #6b7280;
-            --border: #e5e7eb;
-            --shadow: 0 1px 3px rgba(0,0,0,0.1);
-            --shadow-hover: 0 4px 6px rgba(0,0,0,0.1);
-            --radius: 0.5rem;
+            --shadow: 0 2px 4px rgba(26, 35, 126, 0.1);
+            --shadow-hover: 0 4px 8px rgba(26, 35, 126, 0.15);
+            --radius: 0.75rem;
         }
 
         body {
-            font-family: 'Inter', -apple-system, sans-serif;
-            background: var(--background);
-            color: var(--text-primary);
-            line-height: 1.5;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--light-color);
+            color: var(--text-color);
+            line-height: 1.6;
         }
 
+        /* Navbar Styles */
         .navbar {
             background: var(--card-bg);
             box-shadow: var(--shadow);
-            padding: 1rem 0;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .navbar .container {
+            max-width: 1140px;
         }
 
         .navbar-brand {
-            color: var(--primary);
-            font-weight: 600;
+            color: var(--primary-color) !important;
+            font-weight: 700;
             font-size: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
         }
 
+        .nav-link {
+            color: var(--text-color) !important;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius);
+            transition: all 0.2s ease;
+        }
+
+        .nav-link:hover {
+            background: var(--light-color);
+            color: var(--accent-color) !important;
+        }
+
+        /* Main Content */
         .container {
-            max-width: 1200px;
+            max-width: 1140px;
             padding: 2rem 1rem;
+        }
+
+        .page-title {
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 1.75rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .welcome-text {
+            background: var(--card-bg);
+            padding: 1rem;
+            border-radius: var(--radius);
+            margin-bottom: 2rem;
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
         }
 
         .card {
             background: var(--card-bg);
-            border: 1px solid var(--border);
+            border: 1px solid var(--border-color);
             border-radius: var(--radius);
             box-shadow: var(--shadow);
-            transition: all 0.2s ease;
+            transition: all 0.3s ease;
             margin-bottom: 1.5rem;
+            overflow: hidden;
         }
 
         .card:hover {
@@ -60,91 +100,150 @@
         }
 
         .card-header {
-            background: transparent;
-            border-bottom: 1px solid var(--border);
+            background: var(--light-color);
+            border-bottom: 1px solid var(--border-color);
             padding: 1.25rem;
+            color: var(--primary-color);
+            font-weight: 600;
         }
 
         .card-body {
-            padding: 1.25rem;
+            padding: 1.5rem;
+        }
+
+        /* Book Section */
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .section-header h2 {
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        .grid-books {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
         }
 
         .book-card {
             display: flex;
-            align-items: start;
-            gap: 1rem;
+            gap: 1.25rem;
             padding: 1.25rem;
         }
 
         .book-icon {
-            width: 48px;
-            height: 48px;
-            background: var(--primary);
+            width: 56px;
+            height: 56px;
+            background: var(--accent-color);
             color: white;
-            border-radius: var(--radius);
+            border-radius: 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
         }
 
         .book-info h3 {
-            margin: 0;
-            font-size: 1rem;
+            color: var(--primary-color);
             font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
         }
 
         .book-rating {
             display: flex;
             align-items: center;
             gap: 0.5rem;
-            color: var(--secondary);
+            color: var(--secondary-color);
             font-size: 0.875rem;
-            margin-top: 0.5rem;
+            margin: 0.5rem 0;
         }
 
+        .book-rating i {
+            color: #fbbf24;
+        }
+
+        /* Forum Section */
         .question-header {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             gap: 1rem;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
         }
 
         .avatar {
-            width: 40px;
-            height: 40px;
+            width: 44px;
+            height: 44px;
             border-radius: 50%;
-            background: var(--primary);
+            background: var(--accent-color);
             color: white;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: 600;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        .question-content h5 {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
         }
 
         .question-meta {
             font-size: 0.875rem;
-            color: var(--text-secondary);
+            color: var(--secondary-color);
         }
 
         .answer {
-            margin-left: 3rem;
-            padding: 1rem;
-            background: var(--background);
+            margin-left: 3.5rem;
+            padding: 1.25rem;
+            background: var(--light-color);
             border-radius: var(--radius);
-            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid var(--border-color);
         }
 
+        .answer-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .answer .avatar {
+            width: 32px;
+            height: 32px;
+            font-size: 0.875rem;
+        }
+
+        /* Forms */
         .form-control {
-            border: 1px solid var(--border);
+            border: 1px solid var(--border-color);
             border-radius: var(--radius);
-            padding: 0.75rem;
+            padding: 0.875rem;
+            color: var(--text-color);
             transition: all 0.2s ease;
         }
 
         .form-control:focus {
-            border-color: var(--primary);
-            box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.1);
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 3px rgba(57, 73, 171, 0.1);
             outline: none;
+        }
+
+        .form-control::placeholder {
+            color: var(--secondary-color);
         }
 
         .btn {
@@ -152,81 +251,156 @@
             border-radius: var(--radius);
             font-weight: 500;
             transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
         }
 
         .btn-primary {
-            background: var(--primary);
+            background: var(--accent-color);
             border: none;
             color: white;
         }
 
         .btn-primary:hover {
-            background: var(--primary-hover);
+            background: var(--primary-color);
             transform: translateY(-1px);
         }
 
         .btn-outline {
-            border: 1px solid var(--border);
+            border: 2px solid var(--accent-color);
             background: transparent;
-            color: var(--text-primary);
+            color: var(--accent-color);
         }
 
         .btn-outline:hover {
-            background: var(--background);
-            border-color: var(--primary);
+            background: var(--accent-color);
+            color: white;
         }
 
-        .section-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+        /* Alerts */
+        .alert-success {
+            background: #d1fae5;
+            border: 1px solid #059669;
+            color: #065f46;
+            border-radius: var(--radius);
+            padding: 1rem;
             margin-bottom: 1.5rem;
         }
 
-        .grid-books {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 2rem;
+        .alert-danger {
+            background: #fee2e2;
+            border: 1px solid #dc2626;
+            color: #991b1b;
+            border-radius: var(--radius);
+            padding: 1rem;
+            margin-bottom: 1.5rem;
         }
 
         @media (max-width: 768px) {
             .grid-books {
                 grid-template-columns: 1fr;
             }
+
+            .answer {
+                margin-left: 1rem;
+            }
+
+            .navbar-brand {
+                font-size: 1.1rem;
+            }
         }
     </style>
 </head>
 <body>
     <!-- Navbar -->
-    <?= view('partials/navbar') ?>
-    <!-- Main Content -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-graduation-cap"></i>
+                Siap UTBK
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <?php if(session()->get('user')): ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/dashboard">
+                                <i class="fas fa-home me-2"></i>Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/test/start">
+                                <i class="fas fa-play-circle me-2"></i>Mulai Tes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/test/progress">
+                                <i class="fas fa-chart-line me-2"></i>Progress
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/logout">
+                                <i class="fas fa-sign-out-alt me-2"></i>Logout
+                            </a>
+                        </li>
+                    <?php else: ?>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/signup">
+                                <i class="fas fa-user-plus me-2"></i>Sign Up
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/login">
+                                <i class="fas fa-sign-in-alt me-2"></i>Login
+                            </a>
+                        </li>
+                    <?php endif; ?>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
+        <h1 class="page-title">Forum Diskusi</h1>
+
+        <?php if (isset($username)): ?>
+            <div class="welcome-text">
+                <i class="fas fa-user-circle me-2"></i>
+                Selamat datang, <strong><?= esc($username) ?></strong>!
+            </div>
+        <?php endif; ?>
+
+        <?php if (session('success')): ?>
+            <div class="alert alert-success">
+                <i class="fas fa-check-circle me-2"></i>
+                <?= session('success') ?>
+            </div>
+        <?php endif; ?>
+
         <!-- Books Section -->
         <div class="section-header">
-            <h2>Daftar Buku</h2>
-            <button class="btn btn-outline">Lihat Semua</button>
+            <h2>
+                <i class="fas fa-books me-2"></i>
+                Daftar Buku
+            </h2>
+            <button class="btn btn-outline">
+                <i class="fas fa-th-list me-2"></i>
+                Lihat Semua
+            </button>
         </div>
 
         <div class="grid-books" id="books-list">
             <!-- Books will be loaded here -->
         </div>
 
-        <!-- Forum Section -->
-        <h2 class="mb-4">Forum Diskusi</h2>
-        
-        <?php if (isset($username)): ?>
-            <p>Selamat datang, <strong><?= esc($username) ?></strong>!</p>
-        <?php endif; ?>
-
-        <?php if (session('success')): ?>
-            <div class="alert alert-success"><?= session('success') ?></div>
-        <?php endif; ?>
-
         <!-- New Question Form -->
         <div class="card">
             <div class="card-header">
-                <h5 class="mb-0">Buat Pertanyaan Baru</h5>
+                <i class="fas fa-plus-circle me-2"></i>
+                Buat Pertanyaan Baru
             </div>
             <div class="card-body">
                 <form action="<?= site_url('/forum/addQuestion') ?>" method="POST">
@@ -241,7 +415,7 @@
                         ></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary mt-3">
-                        <i class="fas fa-paper-plane me-2"></i>
+                        <i class="fas fa-paper-plane"></i>
                         Kirim Pertanyaan
                     </button>
                 </form>
@@ -256,10 +430,12 @@
                         <div class="avatar">
                             <?= strtoupper(substr($question['question_username'], 0, 1)) ?>
                         </div>
-                        <div>
-                            <h5 class="mb-1"><?= esc($question['question']) ?></h5>
+                        <div class="question-content">
+                            <h5><?= esc($question['question']) ?></h5>
                             <div class="question-meta">
-                                Ditanyakan oleh <?= esc($question['question_username']) ?> • 
+                                <i class="fas fa-user me-1"></i>
+                                <?= esc($question['question_username']) ?> • 
+                                <i class="fas fa-clock ms-1 me-1"></i>
                                 <?= esc($question['created_at']) ?>
                             </div>
                         </div>
@@ -269,22 +445,23 @@
                     <?php if (!empty($question['answers'])): ?>
                         <?php foreach ($question['answers'] as $answer): ?>
                             <div class="answer">
-                                <div class="d-flex align-items-start gap-3">
-                                    <div class="avatar" style="width: 32px; height: 32px; font-size: 0.875rem;">
+                                <div class="answer-header">
+                                    <div class="avatar">
                                         <?= strtoupper(substr($answer['answer_username'], 0, 1)) ?>
                                     </div>
-                                    <div>
-                                        <p class="mb-1"><?= esc($answer['answer']) ?></p>
-                                        <small class="text-muted">
-                                            Dijawab oleh <?= esc($answer['answer_username']) ?> • 
-                                            <?= esc($answer['created_at']) ?>
-                                        </small>
+                                    <div class="question-meta">
+                                        <?= esc($answer['answer_username']) ?> • 
+                                        <?= esc($answer['created_at']) ?>
                                     </div>
                                 </div>
+                                <p class="mb-0"><?= esc($answer['answer']) ?></p>
                             </div>
                         <?php endforeach; ?>
                     <?php else: ?>
-                        <p class="text-muted ms-5 mt-3">Belum ada jawaban.</p>
+                        <div class="answer" style="text-align: center; color: var(--secondary-color);">
+                            <i class="fas fa-comments me-2"></i>
+                            Belum ada jawaban.
+                        </div>
                     <?php endif; ?>
 
                     <!-- Answer Form -->
@@ -300,7 +477,7 @@
                             ></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary mt-2">
-                            <i class="fas fa-reply me-2"></i>
+                            <i class="fas fa-reply"></i>
                             Kirim Jawaban
                         </button>
                     </form>
@@ -313,7 +490,6 @@
         document.addEventListener("DOMContentLoaded", function() {
             const booksList = document.getElementById("books-list");
 
-            // Fetch books data
             fetch('/books')
                 .then(response => response.json())
                 .then(books => {
@@ -326,16 +502,18 @@
                                 <div class="book-info">
                                     <h3>${book.title}</h3>
                                     <div class="book-rating">
-                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star"></i>
                                         ${parseFloat(book.average_rating).toFixed(1)}
                                     </div>
-                                    <small class="text-muted d-block mt-1">
-                                        Penulis: ${book.author}
+                                    <small class="text-muted d-block">
+                                        <i class="fas fa-user me-1"></i>
+                                        ${book.author}
                                     </small>
-                                    <p class="mt-2 mb-0 text-secondary">
+                                    <p class="mt-2 mb-3" style="color: var(--text-color)">
                                         ${book.description}
                                     </p>
-                                    <a href="${book.link}" class="btn btn-primary mt-3" target="_blank">
+                                    <a href="${book.link}" class="btn btn-primary" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
                                         Baca Selengkapnya
                                     </a>
                                 </div>
@@ -347,11 +525,14 @@
                     console.error("Error fetching books:", error);
                     booksList.innerHTML = `
                         <div class="alert alert-danger">
+                            <i class="fas fa-exclamation-circle me-2"></i>
                             Terjadi kesalahan saat memuat data buku.
                         </div>
                     `;
                 });
         });
     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

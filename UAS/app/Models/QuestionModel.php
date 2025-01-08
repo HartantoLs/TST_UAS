@@ -8,7 +8,18 @@ class QuestionModel extends Model
 {
     protected $table = 'questions';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['question_text', 'created_at', 'updated_at'];
+    protected $allowedFields = ['question_text', 'topic_covered', 'question_type', 'created_at', 'updated_at'];
+
+    /**
+     * Mendapatkan soal berdasarkan ID
+     *
+     * @param int $questionId
+     * @return array|null
+     */
+    public function getQuestionDetails($questionId)
+    {
+        return $this->find($questionId);
+    }
 
     /**
      * Mendapatkan soal berdasarkan nomor urutan dan opsi terkaitnya
@@ -30,7 +41,9 @@ class QuestionModel extends Model
         // Formatkan data agar mencakup detail opsi (jika diperlukan)
         return [
             'id' => $question['id'],
-            'question_text' => $question['question_text']
+            'question_text' => $question['question_text'],
+            'topic_covered' => $question['topic_covered'],
+            'question_type' => $question['question_type']
         ];
     }
 }

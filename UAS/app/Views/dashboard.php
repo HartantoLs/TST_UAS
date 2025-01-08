@@ -186,16 +186,16 @@
                 </div>
             </div>
 
-            <!-- Study Schedule -->
+             <!-- Rekomendasi-->
             <div class="col-md-6 col-lg-3">
                 <div class="dashboard-card">
                     <div class="card-icon">
                         <i class="fas fa-calendar-alt"></i>
                     </div>
-                    <h3 class="card-title">Coming Soon</h3>
-                    <p class="card-description">Halaman ini masih berada pada tahap pembuatan dan pengembangan.</p>
-                    <a href="/dashboard" class="action-button">
-                        Coming Soon
+                    <h3 class="card-title">Rekomendasi Buku</h3>
+                    <p class="card-description">Dapatkan rekomendasi buku untuk membantu belajar UTBK Anda.</p>
+                    <a href="/recommendations" class="action-button">
+                        Lihat Rekomendasi
                     </a>
                 </div>
             </div>

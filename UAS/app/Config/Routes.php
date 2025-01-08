@@ -43,3 +43,7 @@ $routes->get('forum/view/(:num)', 'ForumController::viewQuestion/$1');
 $routes->get('books', 'Books::index');
 $routes->get('books/show/(:num)', 'Books::show/$1');
 $routes->get('booksPage', 'Books::viewBooks');
+
+$routes->get('/recommendations', 'RecommendationController::recommend_books');
+
+$routes->get('/test/results', 'TestController::all_results');

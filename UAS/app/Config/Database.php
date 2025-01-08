@@ -49,6 +49,17 @@ class Database extends Config
             'time'     => 'H:i:s',
         ],
     ];
+
+    public $secondary = [ 
+        'hostname' => '127.0.0.1',
+        'username' => 'root',
+        'password' => '',
+        'database' => 'daftar_buku',
+        'DBDriver' => 'MySQLi',
+        'port'     => 3306,
+        'charset'  => 'utf8mb4',
+        'DBCollat' => 'utf8mb4_general_ci',
+    ];
     // public $default = [
     //     // 'DSN'      => 'postgresql://postgres:capekbang@shvvvsetahqncxywtuxb.supabase.co:5432/postgres',
     //     'hostname' => '',                   // Biarkan kosong karena menggunakan DS

@@ -27,14 +27,15 @@ class Books extends BaseController
         $reviews = $this->reviewModel->getReviewsByBookId($id);
 
         if (!$book) {
-            return $this->response->setStatusCode(404)->setJSON(['message' => 'Book not found']);
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Book not found');
         }
 
-        return $this->response->setJSON([
+        return view('books/show', [
             'book' => $book,
             'reviews' => $reviews,
-        ]); // Mengembalikan data buku dan review dalam format JSON
+        ]);
     }
+
 
     public function viewBooks()
     {
