@@ -6,6 +6,7 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
+$routes->get('/latihanHome', 'Home::latihanView');
 $routes->get('/testdb', 'TestDB::index');
 $routes->get('/users', 'UserController::index');
 
@@ -39,11 +40,31 @@ $routes->post('/forum/addQuestion', 'ForumController::addQuestion', ['filter' =>
 $routes->post('/forum/addAnswer/(:num)', 'ForumController::addAnswer/$1', ['filter' => 'auth']);
 $routes->get('forum/view/(:num)', 'ForumController::viewQuestion/$1');
 
-
-$routes->get('books', 'Books::index');
-$routes->get('books/show/(:num)', 'Books::show/$1');
-$routes->get('booksPage', 'Books::viewBooks');
-
 $routes->get('/recommendations', 'RecommendationController::recommend_books');
 
 $routes->get('/test/results', 'TestController::all_results');
+$routes->get('/api/questions', 'QuestionController::getAllQuestions');
+
+
+// Louis
+$routes->get('api/book_formulas', 'BookFormulasController::index'); // Ambil semua data formula
+$routes->get('api/book_formulas/book/(:num)', 'BookFormulasController::getByBookId/$1'); // Ambil formula berdasarkan book_id
+$routes->get('books', 'Books::index');
+$routes->get('books/show/(:num)', 'Books::show/$1');
+$routes->get('booksPage', 'Books::viewBooks');
+$routes->get('book_formulas', 'BookFormulasController::index');
+
+$routes->get('book_formulas/book/(:num)', 'BookFormulasController::getByBookId/$1'); 
+$routes->get('pembahasanSoal', 'pembahasanSoal::index'); // Halaman pembahasan soal
+
+$routes->get('/authlouis/login', 'AuthLouis::login');
+$routes->post('/authlouis/loginProcess', 'AuthLouis::loginProcess');
+$routes->get('/authlouis/signup', 'AuthLouis::signup');
+$routes->post('/authlouis/signupProcess', 'AuthLouis::signupProcess');
+$routes->get('/authlouis/logout', 'AuthLouis::logout');
+
+$routes->get('/louisdashboard.php', 'LouisDashboard::index');
+$routes->post('/books/addReview', 'Books::addReview');
+
+
+

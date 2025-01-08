@@ -1,19 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <title>Books List</title>
 </head>
 <body>
-    <h1>Books List</h1>
-    <div class="books">
-        <?php foreach ($books as $book): ?>
-            <div class="book-card">
-                <h2><?= esc($book['title']) ?></h2>
-                <p>Author: <?= esc($book['author']) ?></p>
-                <p>Average Rating: <?= number_format($book['average_rating'], 1) ?> / 5</p>
-                <a href="<?= base_url('books/show/' . $book['id']) ?>">View Details</a>
-            </div>
-        <?php endforeach; ?>
+    <div class="mb-3">
+            <a href="/louisdashboard.php" class="btn btn-secondary btn-sm">&larr; Back to Dashboard</a>
     </div>
+    <h1>Books List</h1>
+    
+    <?php if (session()->get('username')): ?>
+        <p>Welcome, <?= session()->get('username'); ?>!</p>
+        <a href="/authlouis/logout">Logout</a>
+    <?php else: ?>
+        <p><a href="/authlouis/login">Login</a> to leave reviews.</p>
+    <?php endif; ?>
+
+    <ul>
+        <?php foreach ($books as $book): ?>
+            <li>
+                <h2><?= $book['title']; ?></h2>
+                <p><strong>Author:</strong> <?= $book['author']; ?></p>
+                <p>Average Rating: <?= isset($book['average_rating']) ? $book['average_rating'] : '0.0'; ?> / 5</p>
+                <a href="/books/show/<?= $book['id']; ?>">View Details</a>
+            </li>
+            <hr>
+        <?php endforeach; ?>
+    </ul>
 </body>
 </html>

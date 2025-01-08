@@ -20,7 +20,10 @@ class QuestionModel extends Model
     {
         return $this->find($questionId);
     }
-
+    public function getAllQuestions()
+    {
+        return $this->findAll();
+    }
     /**
      * Mendapatkan soal berdasarkan nomor urutan dan opsi terkaitnya
      *

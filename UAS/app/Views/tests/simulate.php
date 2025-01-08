@@ -243,19 +243,19 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Your existing JavaScript code remains unchanged
         document.addEventListener("DOMContentLoaded", function () {
-            const totalDuration = 1200;
-            const timerKey = "globalTestTimer";
+            const totalDuration = 1200; // Total durasi tes dalam detik (20 menit)
+            const timerKey = "globalTestTimer_<?= $test_id ?>"; // Unik untuk setiap tes berdasarkan test_id
             const timerElement = document.getElementById("timer").children[1];
 
             let remainingTime;
 
-            if (sessionStorage.getItem(timerKey)) {
-                remainingTime = parseInt(sessionStorage.getItem(timerKey), 10);
-            } else {    
+            // Reset timer jika tes baru dimulai
+            if (!sessionStorage.getItem(timerKey)) {
                 remainingTime = totalDuration;
                 sessionStorage.setItem(timerKey, remainingTime);
+            } else {
+                remainingTime = parseInt(sessionStorage.getItem(timerKey), 10);
             }
 
             function updateTimer() {
@@ -277,19 +277,28 @@
             let countdownInterval = setInterval(updateTimer, 1000);
             updateTimer();
 
+            // Hentikan interval jika halaman ditutup atau di-refresh
             window.addEventListener("beforeunload", function () {
                 clearInterval(countdownInterval);
             });
 
-            // Your existing click handlers and form submission code remains unchanged
-            // Logika khusus untuk Sidebar di halaman terakhir
+            // Tangani ketika pengguna menggunakan tombol "Back" browser
+            history.pushState(null, null, location.href);
+            window.addEventListener("popstate", function () {
+                history.pushState(null, null, location.href);
+                alert("Anda tidak dapat kembali ke halaman sebelumnya selama tes berlangsung. Tes akan dianggap selesai.");
+                clearInterval(countdownInterval);
+                sessionStorage.removeItem(timerKey); // Hapus timer lama
+                window.location.href = "/test/force_submit/<?= $test_id ?>";
+            });
+
+            // Logika navigasi soal
             $(".list-group-item").on("click", function (e) {
                 e.preventDefault();
 
                 const target = $(this).data("target");
                 const questionId = $(this).data("question");
                 const selectedOptionId = $("input[name='selected_option_id']:checked").val();
-                const testId = <?= $test_id ?>;
 
                 if (!selectedOptionId) {
                     // Jika tidak ada jawaban yang dipilih, langsung berpindah
@@ -297,44 +306,23 @@
                     return;
                 }
 
-                // Jika berada di halaman terakhir, kirim jawaban terakhir dengan AJAX
-                if (<?= $current ?> >= <?= $total ?>) {
-                    $.post("/test/submit_single", {
-                        <?= csrf_token() ?>: "<?= csrf_hash() ?>",
-                        selected_option_id: selectedOptionId,
-                        question_id: questionId,
-                        current: <?= $current ?>,
-                        total: <?= $total ?>,
-                        test_id: testId
-                    })
-                    .done(function () {
-                        // Setelah jawaban tersimpan, pindah ke halaman yang diinginkan
-                        window.location.href = "/test/simulate/" + target;
-                    })
-                    .fail(function () {
-                        alert("Gagal menyimpan jawaban. Coba lagi.");
-                    });
-                } else {
-                    // Logika untuk halaman biasa
-                    $.post("/test/submit_single", {
-                        <?= csrf_token() ?>: "<?= csrf_hash() ?>",
-                        selected_option_id: selectedOptionId,
-                        question_id: questionId,
-                        current: <?= $current ?>,
-                        total: <?= $total ?>,
-                        test_id: testId
-                    })
-                    .done(function () {
-                        // Setelah jawaban tersimpan, pindah ke halaman yang diinginkan
-                        window.location.href = "/test/simulate/" + target;
-                    })
-                    .fail(function () {
-                        alert("Gagal menyimpan jawaban. Coba lagi.");
-                    });
-                }
+                $.post("/test/submit_single", {
+                    <?= csrf_token() ?>: "<?= csrf_hash() ?>",
+                    selected_option_id: selectedOptionId,
+                    question_id: questionId,
+                    current: <?= $current ?>,
+                    total: <?= $total ?>,
+                    test_id: <?= $test_id ?>
+                })
+                .done(function () {
+                    window.location.href = "/test/simulate/" + target;
+                })
+                .fail(function () {
+                    alert("Gagal menyimpan jawaban. Coba lagi.");
+                });
             });
 
-            // Logika tombol Submit
+            // Logika tombol Submit di halaman terakhir
             $("#questionForm").on("submit", function (e) {
                 if (<?= $current ?> >= <?= $total ?>) {
                     e.preventDefault(); // Cegah form agar tidak langsung dikirim
@@ -347,14 +335,12 @@
                         return;
                     }
 
-                    // Kirim jawaban terakhir dengan AJAX
                     $.post("/test/submit_test/" + testId, {
                         <?= csrf_token() ?>: "<?= csrf_hash() ?>",
                         selected_option_id: selectedOptionId,
                         question_id: questionId
                     })
                     .done(function () {
-                        // Setelah jawaban tersimpan, redirect ke halaman hasil
                         sessionStorage.removeItem(timerKey); // Hapus timer dari sessionStorage
                         clearInterval(countdownInterval); // Hentikan interval timer
                         window.location.href = "/test/result/" + testId;
@@ -366,5 +352,6 @@
             });
         });
     </script>
+
 </body>
 </html>
