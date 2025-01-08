@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 07, 2025 at 11:33 AM
+-- Generation Time: Jan 08, 2025 at 08:01 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -168,19 +168,21 @@ CREATE TABLE `questions` (
   `id` int(11) NOT NULL,
   `question_text` text NOT NULL,
   `created_at` datetime DEFAULT current_timestamp(),
-  `updated_at` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp()
+  `updated_at` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `topic_covered` varchar(255) DEFAULT NULL,
+  `question_type` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `questions`
 --
 
-INSERT INTO `questions` (`id`, `question_text`, `created_at`, `updated_at`) VALUES
-(1, 'Apa turunan dari x^2?', '2024-12-26 12:10:37', '2024-12-26 12:10:37'),
-(2, 'Apa integral dari 1/x dx?', '2024-12-26 12:10:37', '2024-12-26 12:10:37'),
-(3, 'Berapa nilai x jika 2x + 3 = 7?', '2024-12-26 12:10:37', '2024-12-26 12:10:37'),
-(4, 'Berapa nilai sin(90 derajat)?', '2024-12-26 12:10:37', '2024-12-26 12:10:37'),
-(5, 'Jika f(x) = 2x + 1, berapa nilai f(3)?', '2024-12-26 12:10:37', '2024-12-26 12:10:37');
+INSERT INTO `questions` (`id`, `question_text`, `created_at`, `updated_at`, `topic_covered`, `question_type`) VALUES
+(1, 'Apa turunan dari x^2?', '2024-12-26 12:10:37', '2025-01-08 11:48:25', 'Calculus - Derivatives', 'derivative'),
+(2, 'Apa integral dari 1/x dx?', '2024-12-26 12:10:37', '2025-01-08 11:48:25', 'Calculus - Integrals', 'integral'),
+(3, 'Berapa nilai x jika 2x + 3 = 7?', '2024-12-26 12:10:37', '2025-01-08 11:48:25', 'Algebra - Linear Equations', 'linear_equation'),
+(4, 'Berapa nilai sin(90 derajat)?', '2024-12-26 12:10:37', '2025-01-08 11:48:25', 'Trigonometry - Trigonometric Functions', 'trigonometry'),
+(5, 'Jika f(x) = 2x + 1, berapa nilai f(3)?', '2024-12-26 12:10:37', '2025-01-08 11:48:25', 'Functions - Function Evaluation', 'function_evaluation');
 
 -- --------------------------------------------------------
 
@@ -254,7 +256,9 @@ INSERT INTO `tests` (`id`, `user_id`, `score`, `start_time`, `end_time`, `create
 (22, 3, 5, '2025-01-07 07:45:24', NULL, '2025-01-07 14:45:24', '2025-01-07 14:45:35'),
 (23, 3, 0, '2025-01-07 08:03:26', NULL, '2025-01-07 15:03:26', '2025-01-07 15:03:26'),
 (24, 3, 0, '2025-01-07 08:03:29', NULL, '2025-01-07 15:03:29', '2025-01-07 15:03:29'),
-(25, 4, 0, '2025-01-07 10:27:25', NULL, '2025-01-07 17:27:25', '2025-01-07 17:27:25');
+(25, 4, 0, '2025-01-07 10:27:25', NULL, '2025-01-07 17:27:25', '2025-01-07 17:27:25'),
+(26, 4, 0, '2025-01-08 06:40:08', NULL, '2025-01-08 13:40:08', '2025-01-08 13:40:08'),
+(27, 4, 0, '2025-01-08 06:53:17', NULL, '2025-01-08 13:53:17', '2025-01-08 13:53:17');
 
 -- --------------------------------------------------------
 
@@ -470,7 +474,7 @@ ALTER TABLE `reviews`
 -- AUTO_INCREMENT for table `tests`
 --
 ALTER TABLE `tests`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `test_answers`
