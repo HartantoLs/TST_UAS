@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 08, 2025 at 08:02 AM
+-- Generation Time: Jan 08, 2025 at 02:13 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -59,24 +59,25 @@ INSERT INTO `books` (`id`, `title`, `author`, `description`, `link`, `published_
 CREATE TABLE `book_formulas` (
   `id` int(11) NOT NULL,
   `book_id` int(11) NOT NULL,
-  `formula` text NOT NULL
+  `formula` text NOT NULL,
+  `topic_covered` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `book_formulas`
 --
 
-INSERT INTO `book_formulas` (`id`, `book_id`, `formula`) VALUES
-(1, 1, 'Derivative Formula: dy/dx'),
-(2, 1, 'Chain Rule: d(f(g(x)))/dx = f\'(g(x)) * g\'(x)'),
-(3, 2, 'Integral Formula: ∫f(x)dx'),
-(4, 2, 'Fundamental Theorem of Calculus: F(b) - F(a)'),
-(5, 3, 'Linear Equation Formula: ax + b = 0'),
-(6, 3, 'Area of Triangle Formula: 1/2 * base * height'),
-(7, 4, 'Trigonometric Identities: sin²θ + cos²θ = 1'),
-(8, 4, 'Trigonometric Ratio: sin90° = 1'),
-(9, 5, 'Function Evaluation Formula: f(x)'),
-(10, 5, 'Arithmetic Progression: a + (n-1)d');
+INSERT INTO `book_formulas` (`id`, `book_id`, `formula`, `topic_covered`) VALUES
+(1, 1, 'dy/dx', 'derivative'),
+(2, 1, 'd(f(g(x)))/dx = f\'(g(x)) * g\'(x)', 'derivative'),
+(3, 2, '∫f(x)dx', 'integral'),
+(4, 2, 'F(b) - F(a)', 'integral'),
+(5, 3, 'ax + b = 0', 'linear_equation'),
+(6, 3, '1/2 * base * height', 'geometry'),
+(7, 4, 'sin²θ + cos²θ = 1', 'trigonometry'),
+(8, 4, 'sin90° = 1', 'trigonometry'),
+(9, 5, 'f(x)', 'function_evaluation'),
+(10, 5, 'a + (n-1)d', 'Arithmetic Progression');
 
 -- --------------------------------------------------------
 
@@ -93,6 +94,18 @@ CREATE TABLE `reviews` (
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `reviews`
+--
+
+INSERT INTO `reviews` (`id`, `book_id`, `user_id`, `rating`, `review`, `created_at`, `updated_at`) VALUES
+(6, 1, 6, 5, 'bagus', '2025-01-08 05:35:41', '2025-01-08 05:35:41'),
+(7, 1, 6, 4, 'hehe', '2025-01-08 05:35:47', '2025-01-08 05:35:47'),
+(8, 1, 7, 3, 'bgb', '2025-01-08 05:55:38', '2025-01-08 05:55:38'),
+(9, 1, 7, 2, 'bgbgb', '2025-01-08 05:55:49', '2025-01-08 05:55:49'),
+(10, 2, 6, 4, 'a', '2025-01-08 06:11:14', '2025-01-08 06:11:14'),
+(11, 2, 6, 5, 'b', '2025-01-08 06:11:21', '2025-01-08 06:11:21');
 
 -- --------------------------------------------------------
 
@@ -118,7 +131,9 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `created_at`, `updated_a
 (2, 'Bob', 'bob@example.com', 'securepassword', '2025-01-08 04:22:21', '2025-01-08 04:22:21'),
 (3, 'Charlie', 'charlie@example.com', 'charliepass', '2025-01-08 04:22:21', '2025-01-08 04:22:21'),
 (4, 'Diana', 'diana@example.com', 'dianapass', '2025-01-08 04:22:21', '2025-01-08 04:22:21'),
-(5, 'Edward', 'edward@example.com', 'edwardpass', '2025-01-08 04:22:21', '2025-01-08 04:22:21');
+(5, 'Edward', 'edward@example.com', 'edwardpass', '2025-01-08 04:22:21', '2025-01-08 04:22:21'),
+(6, 'tes', 'tes@gmail.com', 'tes', '2025-01-08 12:10:33', '2025-01-08 12:10:33'),
+(7, 'luis', 'luis@gmail.com', '123', '2025-01-08 12:51:05', '2025-01-08 12:51:05');
 
 --
 -- Indexes for dumped tables
@@ -165,13 +180,13 @@ ALTER TABLE `book_formulas`
 -- AUTO_INCREMENT for table `reviews`
 --
 ALTER TABLE `reviews`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- Constraints for dumped tables
