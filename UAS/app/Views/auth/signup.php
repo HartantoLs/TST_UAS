@@ -199,6 +199,17 @@
 
             <form action="/register" method="post">
                 <?= csrf_field() ?>
+                <?php if (session('validation')): ?>
+                    <div class="alert alert-danger">
+                        <ul>
+                            <?php foreach (session('validation')->getErrors() as $error): ?>
+                                <li><?= esc($error) ?></li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                    <?php session()->remove('validation'); ?>
+                <?php endif; ?>
+
                 <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
                     <input type="text" class="form-control" id="username" name="username" 

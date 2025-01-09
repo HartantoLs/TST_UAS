@@ -105,4 +105,52 @@ class ForumController extends Controller
 
         return redirect()->to('/forum')->with('success', 'Jawaban berhasil ditambahkan.');
     }
+    public function deleteQuestion($id)
+    {
+        $session = session();
+        $user = $session->get('user');
+
+        if (!$user) {
+            return redirect()->to('/login')->with('error', 'Anda harus login untuk menghapus pertanyaan.');
+        }
+
+        // Pastikan pertanyaan milik pengguna saat ini
+        $question = $this->questionModel->where('id', $id)->where('user_id', $user->user_id)->first();
+
+        if (!$question) {
+            return redirect()->to('/forum')->with('error', 'Pertanyaan tidak ditemukan atau Anda tidak memiliki izin untuk menghapusnya.');
+        }
+
+        // Hapus pertanyaan
+        if ($this->questionModel->delete($id)) {
+            return redirect()->to('/forum')->with('success', 'Pertanyaan berhasil dihapus.');
+        }
+
+        return redirect()->to('/forum')->with('error', 'Gagal menghapus pertanyaan.');
+    }
+
+    public function deleteAnswer($id)
+    {
+        $session = session();
+        $user = $session->get('user');
+
+        if (!$user) {
+            return redirect()->to('/login')->with('error', 'Anda harus login untuk menghapus jawaban.');
+        }
+
+        // Pastikan jawaban milik pengguna saat ini
+        $answer = $this->answerModel->where('id', $id)->where('user_id', $user->user_id)->first();
+
+        if (!$answer) {
+            return redirect()->to('/forum')->with('error', 'Jawaban tidak ditemukan atau Anda tidak memiliki izin untuk menghapusnya.');
+        }
+
+        // Hapus jawaban
+        if ($this->answerModel->delete($id)) {
+            return redirect()->to('/forum')->with('success', 'Jawaban berhasil dihapus.');
+        }
+
+        return redirect()->to('/forum')->with('error', 'Gagal menghapus jawaban.');
+    }
+
 }

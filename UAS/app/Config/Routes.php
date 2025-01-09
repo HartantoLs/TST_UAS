@@ -45,6 +45,11 @@ $routes->get('/recommendations', 'RecommendationController::recommend_books');
 $routes->get('/test/results', 'TestController::all_results');
 $routes->get('/api/questions', 'QuestionController::getAllQuestions');
 
+$routes->post('/forum/deleteQuestion/(:num)', 'ForumController::deleteQuestion/$1');
+$routes->post('/forum/deleteAnswer/(:num)', 'ForumController::deleteAnswer/$1');
+
+$routes->post('/test/deleteprogress/(:num)', 'TestController::deleteprogress/$1');
+
 
 // Louis
 $routes->get('api/book_formulas', 'BookFormulasController::index'); // Ambil semua data formula

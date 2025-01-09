@@ -116,6 +116,20 @@
             transform: translateY(-2px);
         }
 
+        .btn-danger {
+            background-color: #dc3545;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            font-weight: 500;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+            transform: translateY(-2px);
+        }
+
         .alert {
             border-radius: 10px;
             padding: 1rem;
@@ -160,10 +174,16 @@
                                 <i class="fas fa-star me-2"></i>
                                 Skor: <?= esc($test['score']) ?> dari <?= esc($total) ?>
                             </div>
-                            <div>
+                            <div class="d-flex justify-content-between">
                                 <a href="/test/result/<?= esc($test['id']) ?>" class="btn btn-primary">
                                     <i class="fas fa-eye me-2"></i> Lihat Hasil
                                 </a>
+                                <form action="/test/deleteprogress/<?= esc($test['id']) ?>" method="POST" class="d-inline-block">
+                                    <?= csrf_field() ?>
+                                    <button type="submit" class="btn btn-danger">
+                                        <i class="fas fa-trash-alt me-2"></i> Hapus Tes
+                                    </button>
+                                </form>
                             </div>
                         </div>
                     <?php endforeach; ?>

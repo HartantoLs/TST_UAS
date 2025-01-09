@@ -17,4 +17,15 @@ class TestModel extends Model
                     ->orderBy('created_at', 'DESC')
                     ->findAll();
     }
+    /**
+     * Hapus tes berdasarkan ID dan User ID
+     *
+     * @param int $id
+     * @param int $userId
+     * @return bool
+     */
+    public function deleteTestById($id, $userId)
+    {
+        return $this->where('id', $id)->where('user_id', $userId)->delete();
+    }
 }

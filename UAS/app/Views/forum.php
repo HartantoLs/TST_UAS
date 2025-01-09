@@ -27,7 +27,6 @@
             line-height: 1.6;
         }
 
-        /* Navbar Styles */
         .navbar {
             background: var(--card-bg);
             box-shadow: var(--shadow);
@@ -61,7 +60,6 @@
             color: var(--accent-color) !important;
         }
 
-        /* Main Content */
         .container {
             max-width: 1140px;
             padding: 2rem 1rem;
@@ -111,7 +109,6 @@
             padding: 1.5rem;
         }
 
-        /* Book Section */
         .section-header {
             display: flex;
             justify-content: space-between;
@@ -172,7 +169,6 @@
             color: #fbbf24;
         }
 
-        /* Forum Section */
         .question-header {
             display: flex;
             align-items: flex-start;
@@ -192,6 +188,10 @@
             font-weight: 600;
             font-size: 1.1rem;
             flex-shrink: 0;
+        }
+
+        .question-content {
+            flex: 1;
         }
 
         .question-content h5 {
@@ -216,7 +216,7 @@
 
         .answer-header {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             gap: 0.75rem;
             margin-bottom: 0.75rem;
         }
@@ -227,7 +227,10 @@
             font-size: 0.875rem;
         }
 
-        /* Forms */
+        .answer-content {
+            flex: 1;
+        }
+
         .form-control {
             border: 1px solid var(--border-color);
             border-radius: var(--radius);
@@ -278,7 +281,61 @@
             color: white;
         }
 
-        /* Alerts */
+        .btn-delete {
+            background-color: #dc3545;
+            border: none;
+            color: white;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            border-radius: 0.2rem;
+            transition: all 0.2s ease-in-out;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.25rem;
+            box-shadow: 0 2px 4px rgba(220, 53, 69, 0.3);
+        }
+
+        .btn-delete:hover {
+            background-color: #c82333;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 6px rgba(220, 53, 69, 0.4);
+        }
+
+        .btn-delete:active {
+            transform: translateY(0);
+            box-shadow: 0 1px 2px rgba(220, 53, 69, 0.2);
+        }
+
+        .btn-delete i {
+            font-size: 0.75rem;
+        }
+
+        .btn-sm {
+            padding: 0.25rem 0.5rem;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            border-radius: 0.2rem;
+        }
+
+        .question-actions{
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin:3px;
+        }
+        .answer-actions {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.5rem;
+        }
+
+        .delete-form {
+            display: inline;
+        }
+
         .alert-success {
             background: #d1fae5;
             border: 1px solid #059669;
@@ -383,7 +440,7 @@
         <!-- Books Section -->
         <div class="section-header">
             <h2>
-                <i class="fas fa-books me-2"></i>
+                <i class="fas fa-book me-2"></i>
                 Daftar Buku
             </h2>
             <button class="btn btn-outline">
@@ -440,6 +497,17 @@
                             </div>
                         </div>
                     </div>
+                    <div class="question-actions m-3">
+                        <?php if ((int)$question['user_id'] === (int) $user_id): ?>
+                            <form action="<?= site_url('/forum/deleteQuestion/' . $question['id']) ?>" method="POST" class="mt-2">
+                                <?= csrf_field() ?>
+                                <button type="submit" class="btn btn-danger btn-sm">
+                                    <i class="fas fa-trash-alt me-1"></i> Hapus
+                                </button>
+                            </form>
+                        <?php endif; ?>
+                    </div>
+
 
                     <!-- Answers -->
                     <?php if (!empty($question['answers'])): ?>
@@ -449,12 +517,25 @@
                                     <div class="avatar">
                                         <?= strtoupper(substr($answer['answer_username'], 0, 1)) ?>
                                     </div>
-                                    <div class="question-meta">
-                                        <?= esc($answer['answer_username']) ?> • 
-                                        <?= esc($answer['created_at']) ?>
+                                    <div class="answer-content">
+                                        <div class="question-meta">
+                                            <?= esc($answer['answer_username']) ?> • 
+                                            <?= esc($answer['created_at']) ?>
+                                        </div>
+                                        <p class="mb-0"><?= esc($answer['answer']) ?></p>
                                     </div>
                                 </div>
-                                <p class="mb-0"><?= esc($answer['answer']) ?></p>
+                                <div class="answer-actions">
+                                    <?php if ((int)$answer['user_id'] === (int)$user_id): ?>
+                                        <form action="<?= site_url('/forum/deleteAnswer/' . $answer['id']) ?>" method="POST" class="mt-2">
+                                            <?= csrf_field() ?>
+                                            <button type="submit" class="btn btn-danger btn-sm">
+                                                <i class="fas fa-trash-alt me-1"></i> Hapus
+                                            </button>
+                                        </form>
+                                    <?php endif; ?>
+                                </div>
+
                             </div>
                         <?php endforeach; ?>
                     <?php else: ?>

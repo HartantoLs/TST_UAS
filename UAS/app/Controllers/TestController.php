@@ -452,4 +452,20 @@ class TestController extends Controller
             'total' => $total
         ]);
     }
+    public function deleteprogress($id)
+    {
+        $session = session();
+        $user = $session->get('user');
+
+        if (!$user) {
+            return redirect()->to('/login')->with('error', 'Anda harus login untuk menghapus tes.');
+        }
+
+        $testModel = new TestModel();
+        if ($testModel->where('id', $id)->where('user_id', $user->user_id)->delete()) {
+            return redirect()->to('/test/progress')->with('success', 'Tes berhasil dihapus.');
+        }
+
+        return redirect()->to('/test/progress')->with('error', 'Gagal menghapus tes.');
+    }
 }
