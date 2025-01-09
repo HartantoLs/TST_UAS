@@ -15,6 +15,42 @@
     </script>
 </head>
 <body class="min-h-screen bg-[#D3F1DF]">
+    <div class="w-16 bg-[#D3F1DF] shadow-lg flex flex-col h-screen fixed left-0 top-0">
+        <div class="p-4 bg-[#85A98F] flex justify-center">
+            <a href="<?= base_url('louisdashboard.php') ?>" class="group">
+                <i data-lucide="layout-dashboard" class="w-8 h-8 text-white group-hover:scale-110 transition-transform"></i>
+            </a>
+        </div>
+        
+        <div class="flex-1 py-6">
+            <nav class="space-y-4">
+                <div class="px-2">
+                    <a href="<?= base_url('booksPage') ?>" 
+                    class="flex justify-center p-3 rounded-lg text-[#5A6C57] hover:bg-white hover:text-[#525B44] transition-all group relative">
+                        <i data-lucide="book-open" class="w-6 h-6 group-hover:scale-110 transition-transform"></i>
+                        <span class="absolute left-full ml-2 px-2 py-1 bg-[#85A98F] text-white text-sm rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all whitespace-nowrap">
+                            Koleksi Buku
+                        </span>
+                    </a>
+                </div>
+                
+                <div class="px-2">
+                    <a href="<?= base_url('pembahasanSoal') ?>" 
+                    class="flex justify-center p-3 rounded-lg text-[#5A6C57] hover:bg-white hover:text-[#525B44] transition-all group relative">
+                        <i data-lucide="help-circle" class="w-6 h-6 group-hover:scale-110 transition-transform"></i>
+                        <span class="absolute left-full ml-2 px-2 py-1 bg-[#85A98F] text-white text-sm rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all whitespace-nowrap">
+                            Pembahasan Soal
+                        </span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Add margin to main content to account for fixed navbar -->
+    <div class="ml-16">
+        <!-- Your existing page content goes here -->
+    </div>
     <div class="container mx-auto px-4 py-8">
         <!-- Header Section -->
         <div class="flex justify-between items-center mb-8">
