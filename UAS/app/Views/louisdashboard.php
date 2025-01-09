@@ -13,14 +13,20 @@
             }
         }
     </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
 <body class="bg-[#D3F1DF]">
     <div class="flex min-h-screen">
         <!-- Sidebar -->
         <div class="w-64 md:w-72 bg-[#D3F1DF] shadow-lg flex flex-col">
-            <div class="p-4 bg-[#85A98F] flex items-center gap-3">
-                <i data-lucide="layout-dashboard" class="w-8 h-8 text-white"></i>
-                <span class="text-white font-semibold text-lg">Dashboard</span>
+            <div class="p-4 bg-[#85A98F] flex items-center">
+                <i data-lucide="library-big" class="w-10 h-10 text-white"></i>
+                <span class="text-white font-semibold text-2xl">Belajar UTBK</span>
             </div>
             
             <div class="flex-1 py-6">
@@ -140,7 +146,7 @@
                             </a>
                         </div>
                         <p class="text-sm text-[#5A6C57] mb-4">
-                        Akses penjelasan dan solusi mendetail untuk berbagai pertanyaan umum. Perkuat pemahaman Anda tentang topik yang kompleks dan tingkatkan keterampilan pemecahan masalah Anda.
+                        Akses penjelasan dan solusi mendetail untuk soal yang sulit dikerjakan. Perkuat pemahaman Anda tentang topik yang kompleks dan tingkatkan keterampilan pemecahan masalah Anda.
                         </p>
                     </div>
                 </div>

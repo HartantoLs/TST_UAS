@@ -13,12 +13,21 @@
             }
         }
     </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
 <body class="min-h-screen bg-[#D3F1DF]">
     <div class="w-16 bg-[#D3F1DF] shadow-lg flex flex-col h-screen fixed left-0 top-0">
         <div class="p-4 bg-[#85A98F] flex justify-center">
             <a href="<?= base_url('louisdashboard.php') ?>" class="group">
                 <i data-lucide="layout-dashboard" class="w-8 h-8 text-white group-hover:scale-110 transition-transform"></i>
+                <span class="absolute left-full ml-2 px-2 py-1 bg-[#85A98F] text-white text-sm rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all whitespace-nowrap">
+                    Dashboard
+                </span>
             </a>
         </div>
         
