@@ -144,19 +144,7 @@
 
         <!-- Main Content -->
         <div class="row g-4">
-            <!-- Forum Diskusi Card -->
-            <div class="col-md-6 col-lg-3">
-                <div class="dashboard-card">
-                    <div class="card-icon">
-                        <i class="fas fa-comments"></i>
-                    </div>
-                    <h3 class="card-title">Forum Diskusi</h3>
-                    <p class="card-description">Bergabung dan ajukan pertanyaan mengenai UTBK.</p>
-                    <a href="/forum" class="action-button">
-                        Kunjungi Forum
-                    </a>
-                </div>
-            </div>
+            
 
             <!-- Quick Start Card -->
             <div class="col-md-6 col-lg-3">
@@ -186,6 +174,20 @@
                 </div>
             </div>
 
+            <!-- Forum Diskusi Card -->
+            <div class="col-md-6 col-lg-3">
+                <div class="dashboard-card">
+                    <div class="card-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="card-title">Forum Diskusi</h3>
+                    <p class="card-description">Bergabung dan ajukan pertanyaan mengenai UTBK.</p>
+                    <a href="/forum" class="action-button">
+                        Kunjungi Forum
+                    </a>
+                </div>
+            </div>
+            
              <!-- Rekomendasi-->
             <div class="col-md-6 col-lg-3">
                 <div class="dashboard-card">

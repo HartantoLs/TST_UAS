@@ -9,7 +9,7 @@ class AuthLouis extends BaseController
     public function login()
     {
         helper(['form']);
-        echo view('AuthLouis/login');
+        echo view('authlouis/login');
     }
 
     public function loginProcess()
@@ -41,7 +41,7 @@ class AuthLouis extends BaseController
     public function signup()
     {
         helper(['form']);
-        echo view('AuthLouis/signup');
+        echo view('authlouis/signup');
     }
 
     public function signupProcess()

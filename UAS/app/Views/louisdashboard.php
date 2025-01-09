@@ -40,7 +40,7 @@
             </div>
 
             <div class="p-4 border-t border-gray-200 mt-auto">
-                <a href="<?= base_url('authLouis/logout') ?>" 
+                <a href="<?= base_url('authlouis/logout') ?>" 
                    class="flex items-center gap-3 p-3 rounded-lg text-red-500 hover:bg-red-50 transition-all group">
                     <i data-lucide="log-out" class="w-6 h-6 group-hover:scale-110 transition-transform"></i>
                     <span>Logout</span>
