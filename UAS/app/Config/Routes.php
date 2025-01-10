@@ -63,7 +63,7 @@ $routes->get('booksPage', 'Books::viewBooks');
 $routes->get('book_formulas', 'BookFormulasController::index', ['filter' => 'auth2']);
 
 $routes->get('book_formulas/book/(:num)', 'BookFormulasController::getByBookId/$1'); 
-$routes->get('pembahasanSoal', 'pembahasanSoal::index'); // Halaman pembahasan soal
+$routes->get('pembahasanSoal', 'PembahasanSoal::index'); // Halaman pembahasan soal
 
 $routes->get('/authlouis/login', 'AuthLouis::login');
 $routes->post('/authlouis/loginProcess', 'AuthLouis::loginProcess');
