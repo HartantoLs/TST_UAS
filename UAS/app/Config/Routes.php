@@ -73,6 +73,7 @@ $routes->get('/authlouis/logout', 'AuthLouis::logout');
 
 $routes->get('/louisdashboard.php', 'LouisDashboard::index');
 $routes->post('/books/addReview', 'Books::addReview');
+$routes->post('/books/deleteReview/(:num)', 'Books::deleteReview/$1');
 
 
 

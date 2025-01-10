@@ -127,6 +127,11 @@
                                         </div>
                                     </div>
                                     <p class="text-[#5A6C57]"><?= nl2br(esc($review['review'])) ?></p>
+                                    <?php if (session()->get('id') == $review['user_id']): ?>
+                                        <form action="/books/deleteReview/<?= $review['id'] ?>" method="post">
+                                            <button type="submit" class="mt-2 text-red-500 hover:text-red-700">Delete</button>
+                                        </form>
+                                    <?php endif; ?>
                                 </div>
                             <?php endforeach; ?>
                         <?php else: ?>
