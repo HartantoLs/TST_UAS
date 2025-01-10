@@ -92,27 +92,37 @@
         // Initialize Lucide icons
         lucide.createIcons();
         const fetchDataWithAuth = async (endpoint, email, password) => {
-            try {
+            try {   
                 const url = `${endpoint}?email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`;
-                console.log(`Fetching data from: ${url}`); // Debug log
+                console.log(`Fetching data from: ${url}`);
 
                 const response = await fetch(url, {
-                    method: 'GET', // Menggunakan GET karena data dikirim di URL
+                    method: 'GET',
+                    headers: {
+                    'Accept': 'application/json',
+                    // Header lain jika diperlukan
+                },
                 });
-
-                const textResponse = await response.text();
-                console.log(`Response from ${endpoint}:`, textResponse);
-
+                
+                const contentType = response.headers.get('content-type');
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                 }
 
-                return JSON.parse(textResponse); // Parsing JSON dari respons
+                if (contentType && contentType.includes('application/json')) {
+                    const data = await response.json();
+                    return data;
+                } else {
+                    const textResponse = await response.text();
+                    console.log(`Unexpected response format: ${textResponse}`);
+                    throw new Error('Respons bukan JSON');
+                }
             } catch (error) {
                 console.error(`Error in fetchDataWithAuth for ${endpoint}:`, error.message);
                 throw error;
             }
         };
+
         document.addEventListener("DOMContentLoaded", async () => {
             const discussionContainer = document.getElementById('discussion-container');
 
@@ -120,26 +130,30 @@
                 try {
                     const response = await fetch(endpoint, { method: 'GET' });
 
-                    const textResponse = await response.text();
-                    console.log(`Response from ${endpoint}:`, textResponse);
-
                     if (!response.ok) {
                         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                     }
 
-                    return JSON.parse(textResponse);
+                    const contentType = response.headers.get('content-type');
+                    if (contentType && contentType.includes('application/json')) {
+                        return await response.json();
+                    } else {
+                        throw new Error('Respons bukan JSON');
+                    }
                 } catch (error) {
                     console.error(`Error in fetchData for ${endpoint}:`, error.message);
                     throw error;
                 }
             };
 
+
             try {
                 // Fetch questions data
-                const questionsData = await fetchDataWithAuth('/api/questions', 'lol@gmail.com', 'lollol');
-
+                const questionsData = await fetchData('/api/questions');
+                // const questionsData = await fetchDataWithAuth('/api/questions', 'lol@gmail.com', 'lollol');
                 // Fetch book formulas data
-                const formulasData = await fetchDataWithAuth('/book_formulas', 'tes@gmail.com', 'tes');
+                const formulasData = await fetchData('book_formulas');
+                // const formulasData = await fetchDataWithAuth('/book_formulas', 'tes@gmail.com', 'tes');
 
                 // Proses dan tampilkan data
                 const displayedQuestions = new Set();
