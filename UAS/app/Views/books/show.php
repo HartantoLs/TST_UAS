@@ -14,6 +14,12 @@
         }
     </script>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+    <style>
         .star-rating {
             display: inline-flex;
             flex-direction: row-reverse;
