@@ -69,7 +69,20 @@
             </a>
             
             <div class="flex items-center gap-4">
-                <span class="text-[#5A6C57]">Welcome, <?= esc(session()->get('username')) ?></span>
+                <?php if (session()->get('username')): ?>
+                    <span class="text-[#5A6C57]">Welcome, <?= session()->get('username'); ?>!</span>
+                    <a href="/authlouis/logout" 
+                       class="flex items-center gap-2 bg-[#85A98F] text-white px-4 py-2 rounded-lg hover:bg-[#5A6C57] transition-colors">
+                        <i data-lucide="log-out" class="w-4.5 h-4.5"></i>
+                        Logout
+                    </a>
+                <?php else: ?>
+                    <a href="/authlouis/login" 
+                       class="flex items-center gap-2 bg-[#85A98F] text-white px-4 py-2 rounded-lg hover:bg-[#5A6C57] transition-colors">
+                        <i data-lucide="log-in" class="w-4.5 h-4.5"></i>
+                        Login to review
+                    </a>
+                <?php endif; ?>
             </div>
         </div>
 
@@ -135,7 +148,7 @@
                 } else {
                     const textResponse = await response.text();
                     console.log(`Unexpected response format: ${textResponse}`);
-                    throw new Error('Respons bukan JSON');
+                    throw new Error('Login terlebih dulu');
                 }
             } catch (error) {
                 console.error(`Error in fetchDataWithAuth for ${endpoint}:`, error.message);

@@ -90,6 +90,15 @@ class Books extends BaseController
         return redirect()->to('/books/show/' . $this->request->getPost('book_id'))->with('message', 'Review and rating added successfully.');
     }
 
-    
+    public function deleteReview($id)
+    {
+        $reviewModel = new \App\Models\ReviewModel();
 
+        if ($reviewModel->delete($id)) {
+            return redirect()->back()->with('success', 'Review berhasil dihapus.');
+        } else {
+            return redirect()->back()->with('error', 'Gagal menghapus review.');
+        }
+    }
+   
 }
