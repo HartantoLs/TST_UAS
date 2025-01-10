@@ -91,19 +91,39 @@
     <script>
         // Initialize Lucide icons
         lucide.createIcons();
-        const fetchDataWithAuth = async (endpoint, email, password) => {
-            try {   
-                const url = `${endpoint}?email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`;
-                console.log(`Fetching data from: ${url}`);
 
-                const response = await fetch(url, {
-                    method: 'GET',
+        const fetchDataWithAuth = async (endpoint, email, password) => {
+            try {
+                // Step 1: Login jika belum ada session
+                console.log(`Logging in with email: ${email}`);
+                const loginResponse = await fetch('/authlouis/loginProcess', {
+                    method: 'POST',
                     headers: {
-                    'Accept': 'application/json',
-                    // Header lain jika diperlukan
-                },
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        email: email,
+                        password: password,
+                    }),
+                    credentials: 'same-origin', // Kirim cookie session
                 });
-                
+
+                if (!loginResponse.ok) {
+                    throw new Error(`Login failed: ${loginResponse.statusText}`);
+                }
+
+                console.log('Login successful.');
+
+                // Step 2: Fetch data setelah login
+                console.log(`Fetching data from: ${endpoint}`);
+                const response = await fetch(endpoint, {
+                    method: 'GET',
+                    credentials: 'same-origin', // Kirim cookie session
+                    headers: {
+                        Accept: 'application/json',
+                    },
+                });
+
                 const contentType = response.headers.get('content-type');
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
@@ -122,6 +142,50 @@
                 throw error;
             }
         };
+
+        // const fetchDataWithAuth2 = async (endpoint, email, password) => {
+        //     try {
+        //         // Step 1: Login untuk mendapatkan session di backend
+        //         console.log(`Logging in with email: ${email}`);
+        //         const loginResponse = await fetch('/authenticate', {
+        //             method: 'POST',
+        //             headers: {
+        //                 'Content-Type': 'application/json',
+        //             },
+        //             body: JSON.stringify({ email, password }), // Kirim email dan password untuk login
+        //             credentials: 'same-origin', // Kirim dan simpan cookie session
+        //         });
+
+        //         if (!loginResponse.ok) {
+        //             throw new Error(`Login failed: ${loginResponse.statusText}`);
+        //         }
+
+        //         const loginData = await loginResponse.json();
+        //         console.log('Login successful. User data from session:', loginData);
+
+        //         // Step 2: Fetch data dari endpoint lain
+        //         console.log(`Fetching data from: ${endpoint}`);
+        //         const response = await fetch(endpoint, {
+        //             method: 'GET',
+        //             credentials: 'same-origin', // Kirim cookie session untuk mengakses endpoint
+        //             headers: {
+        //                 Accept: 'application/json',
+        //             },
+        //         });
+
+        //         if (!response.ok) {
+        //             throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        //         }
+
+        //         return await response.json();
+        //     } catch (error) {
+        //         console.error(`Error in fetchDataWithAuth for ${endpoint}:`, error.message);
+        //         throw error;
+        //     }
+        // };
+
+
+
 
         document.addEventListener("DOMContentLoaded", async () => {
             const discussionContainer = document.getElementById('discussion-container');
@@ -149,7 +213,7 @@
 
             try {
                 // Fetch questions data
-                const questionsData = await fetchDataWithAuth('/api/questions', 'lol@gmail.com', 'lol');
+                const questionsData = await fetchDataWithAuth('/api/questions', 'lol@gmail.com', 'lollol');
                 // const questionsData = await fetchDataWithAuth('/api/questions', 'lol@gmail.com', 'lollol');
                 // Fetch book formulas data
                 const formulasData = await fetchDataWithAuth('book_formulas', 'tes@gmail.com', 'tes');

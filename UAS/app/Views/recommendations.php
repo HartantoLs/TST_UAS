@@ -274,6 +274,42 @@
     </div>
 
     <script>
+        async function loginAndFetchBooks() {
+            // Step 1: Login untuk membuat session
+            const loginResponse = await fetch('/authlouis/loginProcess', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    email: 'tes@gmail.com',
+                    password: 'tes',
+                }),
+                credentials: 'same-origin', // Kirim dan terima cookie session
+            });
+
+            if (!loginResponse.ok) {
+                throw new Error('Login failed');
+            }
+
+            console.log('Login successful!');
+
+            // Step 2: Fetch data setelah login
+            const booksResponse = await fetch('/books', {
+                method: 'GET',
+                credentials: 'same-origin', // Kirim cookie session
+            });
+
+            if (!booksResponse.ok) {
+                throw new Error('Failed to fetch books');
+            }
+
+            const books = await booksResponse.json();
+            console.log('Fetched books:', books);
+
+            return books;
+        }
+
         async function fetchDataWithAuth(endpoint, email, password) {
             try {
                 const url = `${endpoint}?email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`;
@@ -281,6 +317,7 @@
 
                 const response = await fetch(url, {
                     method: 'GET',
+                    credentials: 'include',
                 });
 
                 const textResponse = await response.text();
@@ -386,7 +423,7 @@
         async function main() {
             try {
                 const tests = await fetchDataWithAuth('/test/results', 'lol@gmail.com', 'lollol');
-                const books = await fetchDataWithAuth('/books', 'tes@gmail.com', 'tes');
+                const books = await loginAndFetchBooks();
                 
                 const recommendations = matchBooksWithQuestions(tests, books);
                 displayRecommendations(recommendations);
