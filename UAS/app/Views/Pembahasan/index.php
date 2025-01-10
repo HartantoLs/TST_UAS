@@ -69,7 +69,7 @@
             </a>
             
             <div class="flex items-center gap-4">
-                <span class="text-[#5A6C57]">Welcome, Guest!</span>
+                <span class="text-[#5A6C57]">Welcome, <?= esc(session()->get('username')) ?></span>
             </div>
         </div>
 
@@ -149,10 +149,10 @@
 
             try {
                 // Fetch questions data
-                const questionsData = await fetchData('/api/questions');
+                const questionsData = await fetchDataWithAuth('/api/questions', 'lol@gmail.com', 'lol');
                 // const questionsData = await fetchDataWithAuth('/api/questions', 'lol@gmail.com', 'lollol');
                 // Fetch book formulas data
-                const formulasData = await fetchData('book_formulas');
+                const formulasData = await fetchDataWithAuth('book_formulas', 'tes@gmail.com', 'tes');
                 // const formulasData = await fetchDataWithAuth('/book_formulas', 'tes@gmail.com', 'tes');
 
                 // Proses dan tampilkan data

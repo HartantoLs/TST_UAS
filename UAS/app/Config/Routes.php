@@ -59,8 +59,8 @@ $routes->get('api/book_formulas/book/(:num)', 'BookFormulasController::getByBook
 $routes->get('books', 'Books::index', ['filter' => 'auth2']);
 $routes->get('books/show/(:num)', 'Books::show/$1');
 $routes->get('booksPage', 'Books::viewBooks');
-$routes->get('book_formulas', 'BookFormulasController::index');
-// $routes->get('book_formulas', 'BookFormulasController::index', ['filter' => 'auth2']);
+// $routes->get('book_formulas', 'BookFormulasController::index');
+$routes->get('book_formulas', 'BookFormulasController::index', ['filter' => 'auth2']);
 
 $routes->get('book_formulas/book/(:num)', 'BookFormulasController::getByBookId/$1'); 
 $routes->get('pembahasanSoal', 'pembahasanSoal::index'); // Halaman pembahasan soal

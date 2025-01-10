@@ -11,8 +11,8 @@ class Auth2Filter implements FilterInterface
     public function before(RequestInterface $request, $arguments = null)
     {
         // Periksa apakah session 'user' ada
-        if (!session()->has('user')) {
-            return redirect()->to('/authlouis/login')->with('error', 'Anda harus login terlebih dahulu.');
+        if (!session()->get('isLoggedIn')) {
+            return redirect()->to('/authlouis/login');
         }
     }
 

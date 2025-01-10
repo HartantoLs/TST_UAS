@@ -1582,3 +1582,174 @@ DEBUG - 2025-01-10 05:03:40 --> Questions Retrieved: [{"id":"1","question_text":
 INFO - 2025-01-10 05:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-01-10 05:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-01-10 05:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 05:09:58 --> Questions Retrieved: [{"id":"1","question_text":"Apa turunan dari x^2?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Derivatives","question_type":"derivative"},{"id":"2","question_text":"Apa integral dari 1\/x dx?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Integrals","question_type":"integral"},{"id":"3","question_text":"Berapa nilai x jika 2x + 3 = 7?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Algebra - Linear Equations","question_type":"linear_equation"},{"id":"4","question_text":"Berapa nilai sin(90 derajat)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Trigonometry - Trigonometric Functions","question_type":"trigonometry"},{"id":"5","question_text":"Jika f(x) = 2x + 1, berapa nilai f(3)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Functions - Function Evaluation","question_type":"function_evaluation"}]
+INFO - 2025-01-10 05:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-10 05:12:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-10 05:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-10 05:12:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-10 05:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-10 05:12:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-10 05:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-10 05:13:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-10 05:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-10 05:13:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-10 05:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-10 05:13:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-10 05:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-10 05:13:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-10 05:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 05:16:31 --> Questions Retrieved: [{"id":"1","question_text":"Apa turunan dari x^2?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Derivatives","question_type":"derivative"},{"id":"2","question_text":"Apa integral dari 1\/x dx?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Integrals","question_type":"integral"},{"id":"3","question_text":"Berapa nilai x jika 2x + 3 = 7?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Algebra - Linear Equations","question_type":"linear_equation"},{"id":"4","question_text":"Berapa nilai sin(90 derajat)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Trigonometry - Trigonometric Functions","question_type":"trigonometry"},{"id":"5","question_text":"Jika f(x) = 2x + 1, berapa nilai f(3)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Functions - Function Evaluation","question_type":"function_evaluation"}]
+INFO - 2025-01-10 05:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-10 05:17:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-10 05:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-10 05:17:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-10 05:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 05:18:01 --> Questions Retrieved: [{"id":"1","question_text":"Apa turunan dari x^2?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Derivatives","question_type":"derivative"},{"id":"2","question_text":"Apa integral dari 1\/x dx?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Integrals","question_type":"integral"},{"id":"3","question_text":"Berapa nilai x jika 2x + 3 = 7?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Algebra - Linear Equations","question_type":"linear_equation"},{"id":"4","question_text":"Berapa nilai sin(90 derajat)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Trigonometry - Trigonometric Functions","question_type":"trigonometry"},{"id":"5","question_text":"Jika f(x) = 2x + 1, berapa nilai f(3)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Functions - Function Evaluation","question_type":"function_evaluation"}]
+INFO - 2025-01-10 05:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 05:19:21 --> Questions Retrieved: [{"id":"1","question_text":"Apa turunan dari x^2?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Derivatives","question_type":"derivative"},{"id":"2","question_text":"Apa integral dari 1\/x dx?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Integrals","question_type":"integral"},{"id":"3","question_text":"Berapa nilai x jika 2x + 3 = 7?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Algebra - Linear Equations","question_type":"linear_equation"},{"id":"4","question_text":"Berapa nilai sin(90 derajat)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Trigonometry - Trigonometric Functions","question_type":"trigonometry"},{"id":"5","question_text":"Jika f(x) = 2x + 1, berapa nilai f(3)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Functions - Function Evaluation","question_type":"function_evaluation"}]
+INFO - 2025-01-10 05:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 05:19:30 --> Questions Retrieved: [{"id":"1","question_text":"Apa turunan dari x^2?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Derivatives","question_type":"derivative"},{"id":"2","question_text":"Apa integral dari 1\/x dx?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Integrals","question_type":"integral"},{"id":"3","question_text":"Berapa nilai x jika 2x + 3 = 7?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Algebra - Linear Equations","question_type":"linear_equation"},{"id":"4","question_text":"Berapa nilai sin(90 derajat)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Trigonometry - Trigonometric Functions","question_type":"trigonometry"},{"id":"5","question_text":"Jika f(x) = 2x + 1, berapa nilai f(3)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Functions - Function Evaluation","question_type":"function_evaluation"}]
+INFO - 2025-01-10 05:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 05:19:46 --> Questions Retrieved: [{"id":"1","question_text":"Apa turunan dari x^2?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Derivatives","question_type":"derivative"},{"id":"2","question_text":"Apa integral dari 1\/x dx?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Integrals","question_type":"integral"},{"id":"3","question_text":"Berapa nilai x jika 2x + 3 = 7?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Algebra - Linear Equations","question_type":"linear_equation"},{"id":"4","question_text":"Berapa nilai sin(90 derajat)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Trigonometry - Trigonometric Functions","question_type":"trigonometry"},{"id":"5","question_text":"Jika f(x) = 2x + 1, berapa nilai f(3)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Functions - Function Evaluation","question_type":"function_evaluation"}]
+INFO - 2025-01-10 05:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 05:20:08 --> Questions Retrieved: [{"id":"1","question_text":"Apa turunan dari x^2?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Derivatives","question_type":"derivative"},{"id":"2","question_text":"Apa integral dari 1\/x dx?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Integrals","question_type":"integral"},{"id":"3","question_text":"Berapa nilai x jika 2x + 3 = 7?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Algebra - Linear Equations","question_type":"linear_equation"},{"id":"4","question_text":"Berapa nilai sin(90 derajat)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Trigonometry - Trigonometric Functions","question_type":"trigonometry"},{"id":"5","question_text":"Jika f(x) = 2x + 1, berapa nilai f(3)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Functions - Function Evaluation","question_type":"function_evaluation"}]
+INFO - 2025-01-10 05:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 05:20:13 --> Questions Retrieved: [{"id":"1","question_text":"Apa turunan dari x^2?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Derivatives","question_type":"derivative"},{"id":"2","question_text":"Apa integral dari 1\/x dx?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Integrals","question_type":"integral"},{"id":"3","question_text":"Berapa nilai x jika 2x + 3 = 7?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Algebra - Linear Equations","question_type":"linear_equation"},{"id":"4","question_text":"Berapa nilai sin(90 derajat)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Trigonometry - Trigonometric Functions","question_type":"trigonometry"},{"id":"5","question_text":"Jika f(x) = 2x + 1, berapa nilai f(3)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Functions - Function Evaluation","question_type":"function_evaluation"}]
+INFO - 2025-01-10 05:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-10 05:22:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2025-01-10 05:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 05:23:43 --> ErrorException: Undefined variable $session
+[Method: GET, Route: pembahasanSoal]
+in APPPATH\Controllers\PembahasanSoal.php on line 12.
+ 1 APPPATH\Controllers\PembahasanSoal.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\app\\Controllers\\PembahasanSoal.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PembahasanSoal->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PembahasanSoal))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\College\\5th_Sem\\TST\\TST_UAS\\UAS\\public\\index.php')
+INFO - 2025-01-10 05:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 05:28:51 --> Questions Retrieved: [{"id":"1","question_text":"Apa turunan dari x^2?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Derivatives","question_type":"derivative"},{"id":"2","question_text":"Apa integral dari 1\/x dx?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Integrals","question_type":"integral"},{"id":"3","question_text":"Berapa nilai x jika 2x + 3 = 7?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Algebra - Linear Equations","question_type":"linear_equation"},{"id":"4","question_text":"Berapa nilai sin(90 derajat)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Trigonometry - Trigonometric Functions","question_type":"trigonometry"},{"id":"5","question_text":"Jika f(x) = 2x + 1, berapa nilai f(3)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Functions - Function Evaluation","question_type":"function_evaluation"}]
+INFO - 2025-01-10 05:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 05:29:20 --> Questions Retrieved: [{"id":"1","question_text":"Apa turunan dari x^2?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Derivatives","question_type":"derivative"},{"id":"2","question_text":"Apa integral dari 1\/x dx?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Calculus - Integrals","question_type":"integral"},{"id":"3","question_text":"Berapa nilai x jika 2x + 3 = 7?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Algebra - Linear Equations","question_type":"linear_equation"},{"id":"4","question_text":"Berapa nilai sin(90 derajat)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Trigonometry - Trigonometric Functions","question_type":"trigonometry"},{"id":"5","question_text":"Jika f(x) = 2x + 1, berapa nilai f(3)?","created_at":"2024-12-26 12:10:37","updated_at":"2025-01-08 11:48:25","topic_covered":"Functions - Function Evaluation","question_type":"function_evaluation"}]
+INFO - 2025-01-10 05:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 05:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
