@@ -89,7 +89,5 @@ class Books extends BaseController
 
         return redirect()->to('/books/show/' . $this->request->getPost('book_id'))->with('message', 'Review and rating added successfully.');
     }
-
     
-
 }
