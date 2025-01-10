@@ -47,7 +47,6 @@
         </div>
     </div>
 
-    <!-- Add margin to main content to account for fixed navbar -->
     <div class="ml-16">
         <!-- Your existing page content goes here -->
     </div>
@@ -61,20 +60,7 @@
             </a>
             
             <div class="flex items-center gap-4">
-                <?php if (session()->get('username')): ?>
-                    <span class="text-[#5A6C57]">Welcome, <?= session()->get('username'); ?>!</span>
-                    <a href="/authlouis/logout" 
-                       class="flex items-center gap-2 bg-[#85A98F] text-white px-4 py-2 rounded-lg hover:bg-[#5A6C57] transition-colors">
-                        <i data-lucide="log-out" class="w-4.5 h-4.5"></i>
-                        Logout
-                    </a>
-                <?php else: ?>
-                    <a href="/authlouis/login" 
-                       class="flex items-center gap-2 bg-[#85A98F] text-white px-4 py-2 rounded-lg hover:bg-[#5A6C57] transition-colors">
-                        <i data-lucide="log-in" class="w-4.5 h-4.5"></i>
-                        Login to view discussions
-                    </a>
-                <?php endif; ?>
+                <span class="text-[#5A6C57]">Welcome, Guest!</span>
             </div>
         </div>
 
@@ -96,22 +82,57 @@
     <script>
         // Initialize Lucide icons
         lucide.createIcons();
+        const fetchDataWithAuth = async (endpoint, email, password) => {
+            try {
+                const url = `${endpoint}?email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`;
+                console.log(`Fetching data from: ${url}`); // Debug log
 
+                const response = await fetch(url, {
+                    method: 'GET', // Menggunakan GET karena data dikirim di URL
+                });
+
+                const textResponse = await response.text();
+                console.log(`Response from ${endpoint}:`, textResponse);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                return JSON.parse(textResponse); // Parsing JSON dari respons
+            } catch (error) {
+                console.error(`Error in fetchDataWithAuth for ${endpoint}:`, error.message);
+                throw error;
+            }
+        };
         document.addEventListener("DOMContentLoaded", async () => {
             const discussionContainer = document.getElementById('discussion-container');
 
-            try {
-                const [questionsResponse, formulasResponse] = await Promise.all([
-                    fetch('/api/questions'),
-                    fetch('/api/book_formulas')
-                ]);
+            const fetchData = async (endpoint) => {
+                try {
+                    const response = await fetch(endpoint, { method: 'GET' });
 
-                if (!questionsResponse.ok || !formulasResponse.ok) {
-                    throw new Error("Gagal mengambil data dari server.");
+                    const textResponse = await response.text();
+                    console.log(`Response from ${endpoint}:`, textResponse);
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                    }
+
+                    return JSON.parse(textResponse);
+                } catch (error) {
+                    console.error(`Error in fetchData for ${endpoint}:`, error.message);
+                    throw error;
                 }
+            };
 
-                const questionsData = await questionsResponse.json();
-                const formulasData = await formulasResponse.json();
+            try {
+                // Fetch questions data
+                const questionsData = await fetchDataWithAuth('/api/questions', 'lol@gmail.com', 'lollol');
+
+                // Fetch book formulas data
+                const formulasData = await fetchDataWithAuth('/book_formulas', 'tes@gmail.com', 'tes');
+
+                // Proses dan tampilkan data
                 const displayedQuestions = new Set();
                 let discussionHTML = '';
 
@@ -152,7 +173,7 @@
                                                     <div class="text-sm text-[#5A6C57]">Topik: ${formula.topic_covered}</div>
                                                 </div>
                                             `).join('')}
-                                           </div>`
+                                        </div>`
                                         : `<p class="text-[#5A6C57] italic">Tidak ada rumus yang relevan untuk soal ini.</p>`
                                     }
                                 </div>

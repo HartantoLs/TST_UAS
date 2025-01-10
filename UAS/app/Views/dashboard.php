@@ -132,7 +132,8 @@
         <div class="row mb-4 mt-4">
             <div class="col-12">
                 <div class="dashboard-card progress-card">
-                    <h2>Selamat Datang, <?= esc(session()->get('user')->username) ?>!</h2>
+                    <h2>Selamat Datang, <?= esc(session()->get('user')['username']) ?>!</h2>
+
                     <p>Progress belajar Anda minggu ini</p>
                     <div class="stat-number">85%</div>
                     <span class="status-badge">

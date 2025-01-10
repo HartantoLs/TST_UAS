@@ -4,12 +4,10 @@ namespace App\Controllers;
 
 use App\Models\UserModel;
 use CodeIgniter\Controller;
-use Firebase\JWT\JWT;
 
 class AuthController extends Controller
 {
     protected $userModel;
-    protected $key;
     protected $session;
 
     public function __construct()
@@ -23,9 +21,6 @@ class AuthController extends Controller
 
         // Memuat helper yang diperlukan
         helper(['url', 'form']);
-
-        // Mengambil secret key dari .env
-        $this->key = getenv('JWT_SECRET') ?: 'your-very-secure-secret-key';
     }
 
     // Menampilkan halaman Sign Up
@@ -67,7 +62,7 @@ class AuthController extends Controller
         return view('auth/login');
     }
 
-    // Menangani proses autentikasi pengguna dan menghasilkan JWT
+    // Menangani proses autentikasi pengguna
     public function authenticate()
     {
         // Validasi input
@@ -83,26 +78,6 @@ class AuthController extends Controller
 
         // Cek apakah pengguna ada dan password cocok
         if ($user && password_verify($this->request->getPost('password'), $user['password'])) {
-            // Menyiapkan payload JWT
-            $payload = [
-                'iss' => 'your-domain.com',    // Issuer
-                'aud' => 'your-domain.com',    // Audience
-                'iat' => time(),                // Issued at
-                'nbf' => time(),                // Not before
-                'exp' => time() + 3600,         // Expiration time (1 hour)
-                'data' => [
-                    'user_id'  => (int)$user['id'],
-                    'username' => $user['username'],
-                    'email'    => $user['email'],
-                ]
-            ];
-
-            // Menghasilkan JWT
-            $token = JWT::encode($payload, $this->key, 'HS256');
-
-            // Menyimpan token ke HTTP-only cookie untuk keamanan
-            setcookie('token', $token, time() + 3600, "/", "", false, true);
-
             // Menyimpan data pengguna ke session
             $this->session->set('user', [
                 'id'       => $user['id'],
@@ -119,17 +94,54 @@ class AuthController extends Controller
             // Redirect kembali ke halaman login
             return redirect()->to('/login');
         }
+    }   
+
+    public function authenticateWithUrl()
+    {
+        $email = $this->request->getGet('email'); // Ambil email dari query string
+        $password = $this->request->getGet('password'); // Ambil password dari query string
+
+        if (empty($email) || empty($password)) {
+            return $this->response->setJSON([
+                'status' => 'error',
+                'message' => 'Email dan password harus diisi.'
+            ])->setStatusCode(400);
+        }
+
+        // Cari user berdasarkan email
+        $user = $this->userModel->where('email', $email)->first();
+
+        if (!$user || !password_verify($password, $user['password'])) {
+            return $this->response->setJSON([
+                'status' => 'error',
+                'message' => 'Email atau password salah.'
+            ])->setStatusCode(401);
+        }
+
+        // Simpan data user ke session
+        $this->session->set('user', [
+            'id' => $user['id'],
+            'username' => $user['username'],
+            'email' => $user['email'],
+        ]);
+
+        return $this->response->setJSON([
+            'status' => 'success',
+            'message' => 'Login berhasil.',
+            'user' => [
+                'id' => $user['id'],
+                'username' => $user['username'],
+                'email' => $user['email'],
+            ],
+        ]);
     }
 
     // Menangani proses logout pengguna
     public function logout()
     {
-        // Menghapus cookie token
-        setcookie('token', '', time() - 3600, "/", "", false, true);
-
         // Menghapus data pengguna dari session
+        $this->session->remove('user');
         $this->session->destroy();
-
         // Menyimpan pesan sukses ke session
         $this->session->setFlashdata('success', 'Anda telah berhasil logout.');
 

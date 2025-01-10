@@ -35,6 +35,7 @@ class Filters extends BaseFilters
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
         'auth'     => \App\Filters\AuthFilter::class,
+        'auth2' => \App\Filters\Auth2Filter::class,
     ];
 
     /**
@@ -71,15 +72,16 @@ class Filters extends BaseFilters
     public array $globals = [
         'before' => [
             // 'honeypot',
-            // 'csrf',
+            
             // 'invalidchars',
         ],
         'after' => [
             // 'honeypot',
+            
             // 'secureheaders',
         ],
     ];
-
+    
     /**
      * List of filter aliases that works on a
      * particular HTTP method (GET, POST, etc.).

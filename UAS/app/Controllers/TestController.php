@@ -23,7 +23,7 @@ class TestController extends Controller
         $this->testModel = new TestModel();
         $this->testAnswerModel = new TestAnswerModel();
         $this->optionModel = new OptionModel();
-        $this->jwtKey = env('JWT_SECRET');
+        // $this->jwtKey = env('JWT_SECRET');
         // Memuat helper yang diperlukan
         helper(['url', 'form']);
     }
@@ -68,7 +68,7 @@ class TestController extends Controller
     
         // Membuat entri baru di tabel tests
         $testId = $this->testModel->insert([
-            'user_id'        => $user->user_id,
+            'user_id'        => session()->get('user')['id'],
             'score'          => 0,
             // 'remaining_time' => $remainingTime,
             'start_time'     => date('Y-m-d H:i:s')
@@ -153,7 +153,7 @@ class TestController extends Controller
 
         // Pastikan test_id valid dan milik user saat ini
         $test = $this->testModel->find($testId);
-        if (!$test || $test['user_id'] != $user->user_id) {
+        if (!$test || $test['user_id'] != $user['id']) {
             return redirect()->to('/test/start')->with('error', 'Tes tidak ditemukan atau Anda tidak berhak mengaksesnya.');
         }
 
@@ -193,7 +193,7 @@ class TestController extends Controller
 
         // Pastikan test_id valid dan milik user saat ini
         $test = $this->testModel->find($testId);
-        if (!$test || $test['user_id'] != $user->user_id) {
+        if (!$test || $test['user_id'] != $user['id']) {
             return redirect()->to('/test/start')->with('error', 'Tes tidak ditemukan atau Anda tidak berhak mengaksesnya.');
         }
 
@@ -341,7 +341,7 @@ class TestController extends Controller
     
         // Pastikan test_id valid dan milik user saat ini
         $test = $this->testModel->find($testId);
-        if (!$test || $test['user_id'] != $user->user_id) {
+        if (!$test || $test['user_id'] != $user['id']) {
             return redirect()->to('/test/start')->with('error', 'Tes tidak ditemukan atau Anda tidak berhak mengaksesnya.');
         }
     
@@ -382,7 +382,7 @@ class TestController extends Controller
         }
 
         // Ambil semua tes pengguna
-        $tests = $this->testModel->where('user_id', $user->user_id)->findAll();
+        $tests = $this->testModel->where('user_id', $user['id'])->findAll();
 
         if (empty($tests)) {
             return $this->response->setJSON(['message' => 'No tests found'])->setStatusCode(404);
@@ -442,7 +442,7 @@ class TestController extends Controller
         }
 
         // Mendapatkan semua tes yang diambil oleh user
-        $tests = $this->testModel->where('user_id', $user->user_id)->findAll();
+        $tests = $this->testModel->where('user_id', $user['id'])->findAll();
 
         // Mendapatkan total jumlah soal (dari tabel questions)
         $total = $this->questionModel->countAll();
@@ -462,7 +462,7 @@ class TestController extends Controller
         }
 
         $testModel = new TestModel();
-        if ($testModel->where('id', $id)->where('user_id', $user->user_id)->delete()) {
+        if ($testModel->where('id', $id)->where('user_id', $user['id'])->delete()) {
             return redirect()->to('/test/progress')->with('success', 'Tes berhasil dihapus.');
         }
 

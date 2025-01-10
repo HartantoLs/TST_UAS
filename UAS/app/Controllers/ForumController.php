@@ -45,8 +45,8 @@ class ForumController extends Controller
         }
 
         return view('forum', [
-            'username' => $user->username,
-            'user_id' => $user->user_id,
+            'username' => session()->get('user')['username'],
+            'user_id' => session()->get('user')['id'],
             'questions' => $questions,
         ]);
     }
@@ -67,7 +67,7 @@ class ForumController extends Controller
         }
 
         $this->questionModel->insert([
-            'user_id' => $user->user_id,
+            'user_id' => session()->get('user')['id'],
             'question' => $question,
         ]);
 
@@ -91,7 +91,7 @@ class ForumController extends Controller
 
         $this->answerModel->insert([
             'question_id' => $questionId,
-            'user_id' => $user->user_id,
+            'user_id' => session()->get('user')['id'],
             'answer' => $answer,
         ]);
 
@@ -115,7 +115,7 @@ class ForumController extends Controller
         }
 
         // Pastikan pertanyaan milik pengguna saat ini
-        $question = $this->questionModel->where('id', $id)->where('user_id', $user->user_id)->first();
+        $question = $this->questionModel->where('id', $id)->where('user_id', $user['id'])->first();
 
         if (!$question) {
             return redirect()->to('/forum')->with('error', 'Pertanyaan tidak ditemukan atau Anda tidak memiliki izin untuk menghapusnya.');
@@ -139,7 +139,7 @@ class ForumController extends Controller
         }
 
         // Pastikan jawaban milik pengguna saat ini
-        $answer = $this->answerModel->where('id', $id)->where('user_id', $user->user_id)->first();
+        $answer = $this->answerModel->where('id', $id)->where('user_id', $user['id'])->first();
 
         if (!$answer) {
             return redirect()->to('/forum')->with('error', 'Jawaban tidak ditemukan atau Anda tidak memiliki izin untuk menghapusnya.');

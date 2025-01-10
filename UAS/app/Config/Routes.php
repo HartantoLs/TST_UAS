@@ -17,6 +17,8 @@ $routes->post('/register', 'AuthController::register');
 // Route untuk Login
 $routes->get('/login', 'AuthController::login');
 $routes->post('/authenticate', 'AuthController::authenticate');
+$routes->get('/authenticateURL', 'AuthController::authenticateWithUrl');
+
 
 // Route untuk Logout
 $routes->get('/logout', 'AuthController::logout');
@@ -42,8 +44,8 @@ $routes->get('forum/view/(:num)', 'ForumController::viewQuestion/$1');
 
 $routes->get('/recommendations', 'RecommendationController::recommend_books');
 
-$routes->get('/test/results', 'TestController::all_results');
-$routes->get('/api/questions', 'QuestionController::getAllQuestions');
+$routes->get('/test/results', 'TestController::all_results', ['filter' => 'auth']);
+$routes->get('/api/questions', 'QuestionController::getAllQuestions', ['filter' => 'auth']);
 
 $routes->post('/forum/deleteQuestion/(:num)', 'ForumController::deleteQuestion/$1');
 $routes->post('/forum/deleteAnswer/(:num)', 'ForumController::deleteAnswer/$1');
@@ -52,12 +54,12 @@ $routes->post('/test/deleteprogress/(:num)', 'TestController::deleteprogress/$1'
 
 
 // Louis
-$routes->get('api/book_formulas', 'BookFormulasController::index'); // Ambil semua data formula
-$routes->get('api/book_formulas/book/(:num)', 'BookFormulasController::getByBookId/$1'); // Ambil formula berdasarkan book_id
-$routes->get('books', 'Books::index');
-$routes->get('books/show/(:num)', 'Books::show/$1');
-$routes->get('booksPage', 'Books::viewBooks');
-$routes->get('book_formulas', 'BookFormulasController::index');
+// $routes->get('api/book_formulas', 'BookFormulasController::index', ['filter' => 'auth2']); // Ambil semua data formula
+$routes->get('api/book_formulas/book/(:num)', 'BookFormulasController::getByBookId/$1', ['filter' => 'auth2']); // Ambil formula berdasarkan book_id
+$routes->get('books', 'Books::index', ['filter' => 'auth2']);
+$routes->get('books/show/(:num)', 'Books::show/$1', ['filter' => 'auth2']);
+$routes->get('booksPage', 'Books::viewBooks', ['filter' => 'auth2']);
+$routes->get('book_formulas', 'BookFormulasController::index', ['filter' => 'auth2']);
 
 $routes->get('book_formulas/book/(:num)', 'BookFormulasController::getByBookId/$1'); 
 $routes->get('pembahasanSoal', 'pembahasanSoal::index'); // Halaman pembahasan soal

@@ -274,20 +274,27 @@
     </div>
 
     <script>
-        async function fetchTestResults() {
-            const response = await fetch('/test/results');
-            if (!response.ok) {
-                throw new Error('Gagal mengambil data hasil tes.');
-            }
-            return response.json();
-        }
+        async function fetchDataWithAuth(endpoint, email, password) {
+            try {
+                const url = `${endpoint}?email=${encodeURIComponent(email)}&password=${encodeURIComponent(password)}`;
+                console.log(`Fetching data from: ${url}`);
 
-        async function fetchBooks() {
-            const response = await fetch('/books');
-            if (!response.ok) {
-                throw new Error('Gagal mengambil data buku.');
+                const response = await fetch(url, {
+                    method: 'GET',
+                });
+
+                const textResponse = await response.text();
+                console.log(`Response from ${endpoint}:`, textResponse);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                return JSON.parse(textResponse);
+            } catch (error) {
+                console.error(`Error in fetchDataWithAuth for ${endpoint}:`, error.message);
+                throw error;
             }
-            return response.json();
         }
 
         function matchBooksWithQuestions(tests, books) {
@@ -378,7 +385,9 @@
 
         async function main() {
             try {
-                const [tests, books] = await Promise.all([fetchTestResults(), fetchBooks()]);
+                const tests = await fetchDataWithAuth('/test/results', 'lol@gmail.com', 'lollol');
+                const books = await fetchDataWithAuth('/books', 'tes@gmail.com', 'tes');
+                
                 const recommendations = matchBooksWithQuestions(tests, books);
                 displayRecommendations(recommendations);
             } catch (error) {
@@ -393,6 +402,7 @@
 
         main();
     </script>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
