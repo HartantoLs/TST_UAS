@@ -7,6 +7,6 @@ class PembahasanSoal extends BaseController
     public function index()
     {
         // Menampilkan view pembahasan soal
-        return view('pembahasan/index');
+        return view('Pembahasan/index');
     }
 }
